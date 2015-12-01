@@ -6882,3 +6882,71 @@ Caused by: java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
 	... 23 more
+!SESSION 2015-12-01 13:57:21.453 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jacobcarter/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jacobcarter/Documents/VFW1512/Lab -keyring /Users/jacobcarter/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 13:57:23.401
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-01 13:57:32.858
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-01 13:57:32.861
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-12-01 13:57:48.654
+!MESSAGE (Build 4.4.0.201511241829) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.656
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample Apple WatchOS2
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.659
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample iOS 9 App Search
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.660
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample Ti SDK 4.1 Example App
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.661
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.663
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.664
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:57:48.665
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+
+!ENTRY com.aptana.js.core 4 0 2015-12-01 13:59:59.566
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Source type cannot be null or empty
+!STACK 0
+java.lang.IllegalArgumentException: Source type cannot be null or empty
+	at com.appcelerator.titanium.alloy.core.js.inferencing.AlloyJSAliasResolver.resolve(AlloyJSAliasResolver.java:26)
+	at com.aptana.js.internal.core.inferencing.AliasResolverFactory.resolve(AliasResolverFactory.java:100)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:704)
+	at com.aptana.js.core.parsing.ast.JSIdentifierNode.accept(JSIdentifierNode.java:33)
+	at com.aptana.js.core.parsing.ast.JSTreeWalker.visit(JSTreeWalker.java:176)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processValues(JSSymbolTypeInferrer.java:606)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:359)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:420)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:289)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:1)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:432)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:466)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getScopeProperties(JSSymbolTypeInferrer.java:285)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:232)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:105)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)

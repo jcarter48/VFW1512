@@ -2639,3 +2639,14 @@ Caused by: java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
 	... 28 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-12-01 13:57:20.786
+!MESSAGE An internal error occurred during: "Update Android info".
+!STACK 0
+java.lang.NullPointerException
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.getLaunchShortcutManager(AndroidSDKLocator.java:437)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.parseTiInfo(AndroidSDKLocator.java:309)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.updateTiInfo(AndroidSDKLocator.java:225)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.access$0(AndroidSDKLocator.java:222)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator$1.run(AndroidSDKLocator.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
