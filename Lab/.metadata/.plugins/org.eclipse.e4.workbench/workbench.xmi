@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_4jb_oZLWEeWwBbWP8ZAheA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_4jb_opLWEeWwBbWP8ZAheA" bindingContexts="_4jb_qJLWEeWwBbWP8ZAheA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Demo/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;data.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/data.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/Resources/data.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/jacobcarter/Documents/VFW1512/Lecture/2.2 Views and Labels/Resources/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/jacobcarter/Documents/VFW1512/Lecture/2.2%20Views%20and%20Labels/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Project_2/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/jacobcarter/Documents/VFW1512/Lecture/Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/jacobcarter/Documents/VFW1512/Lecture/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Demo/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_4jb_opLWEeWwBbWP8ZAheA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_6wj-gpLWEeWwBbWP8ZAheA" label="%trimmedwindow.label.eclipseSDK" x="21" y="23" width="1200" height="835">
@@ -65,6 +65,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_6zyRq5LWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_6zldUJLWEeWwBbWP8ZAheA"/>
               <children xsi:type="basic:PartStack" xmi:id="_6zyRrJLWEeWwBbWP8ZAheA" elementId="terminalArea" containerData="2500" selectedElement="_Eq7OgJLaEeWCJsH6rsQTfg">
                 <tags>newtablook</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_6zyRrZLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_6zvOUZLWEeWwBbWP8ZAheA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_Eq7OgJLaEeWCJsH6rsQTfg" elementId="com.aptana.terminal.views.terminal:Carter_Jacob_Demo" ref="_Eq6ncJLaEeWCJsH6rsQTfg"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_6zyRrpLWEeWwBbWP8ZAheA" elementId="com.aptana.terminal.views.terminal:*" toBeRendered="false" ref="_6zvOUpLWEeWwBbWP8ZAheA"/>
@@ -182,7 +183,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xYd4JLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_0lXDsJLaEeW01r_82y4A7Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_4j7H05LWEeWwBbWP8ZAheA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kRZiMJhaEeWLhJYTKpVVQA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_4j7H05LWEeWwBbWP8ZAheA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xYd4ZLWEeWwBbWP8ZAheA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -203,7 +204,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xZE8JLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_0lb8MZLaEeW01r_82y4A7Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_4j22YpLWEeWwBbWP8ZAheA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kRdzo5haEeWLhJYTKpVVQA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_4j22YpLWEeWwBbWP8ZAheA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xZE8ZLWEeWwBbWP8ZAheA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -636,7 +637,7 @@
       <tags>platform:cocoa</tags>
     </bindings>
     <bindings xmi:id="_4kyDcpLWEeWwBbWP8ZAheA" keySequence="COMMAND+SHIFT+D" command="_4j8WEpLWEeWwBbWP8ZAheA"/>
-    <bindings xmi:id="_zi6IMZLaEeW01r_82y4A7Q" keySequence="COMMAND+CTRL+F" command="_4k6mU5LWEeWwBbWP8ZAheA"/>
+    <bindings xmi:id="_jiCh0ZhaEeWLhJYTKpVVQA" keySequence="COMMAND+CTRL+F" command="_4k6mU5LWEeWwBbWP8ZAheA"/>
   </bindingTables>
   <bindingTables xmi:id="_4kaQA5LWEeWwBbWP8ZAheA" elementId="org.eclipse.debug.ui.memoryview" bindingContext="_4kAAXpLWEeWwBbWP8ZAheA">
     <bindings xmi:id="_4kaQBJLWEeWwBbWP8ZAheA" keySequence="COMMAND+W" command="_4j5SoJLWEeWwBbWP8ZAheA"/>
@@ -699,7 +700,7 @@
     <bindings xmi:id="_4ksj4pLWEeWwBbWP8ZAheA" keySequence="CTRL+D" command="_4j4ro5LWEeWwBbWP8ZAheA"/>
   </bindingTables>
   <bindingTables xmi:id="_4k7NZZLWEeWwBbWP8ZAheA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_4jb_q5LWEeWwBbWP8ZAheA">
-    <bindings xmi:id="_zi6vQJLaEeW01r_82y4A7Q" keySequence="M1+W" command="_4k7NY5LWEeWwBbWP8ZAheA"/>
+    <bindings xmi:id="_jiDI4JhaEeWLhJYTKpVVQA" keySequence="M1+W" command="_4k7NY5LWEeWwBbWP8ZAheA"/>
   </bindingTables>
   <bindingTables xmi:id="_6zmrcZLWEeWwBbWP8ZAheA" bindingContext="_6zmrcJLWEeWwBbWP8ZAheA"/>
   <bindingTables xmi:id="_6znSgZLWEeWwBbWP8ZAheA" bindingContext="_6znSgJLWEeWwBbWP8ZAheA"/>

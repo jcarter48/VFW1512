@@ -2389,3 +2389,46 @@ java.lang.IllegalMonitorStateException: attempt to unlock read lock, not locked 
 !ENTRY com.aptana.core 4 1 2015-11-24 14:04:38.346
 !MESSAGE error: src refspec master does not match any.
 error: failed to push some refs to 'git@github.com:jacobcarter/VFW1512.git'
+!SESSION 2015-12-01 13:35:27.866 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jacobcarter/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jacobcarter/Documents/VFW1512/Lecture -keyring /Users/jacobcarter/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-01 13:35:29.305
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-01 13:35:29.803
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-01 13:35:38.743
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-01 13:35:38.746
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-12-01 13:35:47.905
+!MESSAGE (Build 4.4.0.201511182122) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.907
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Apple WatchOS2
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.910
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample iOS 9 App Search
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.911
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Ti SDK 4.1 Example App
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.912
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.913
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.914
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-12-01 13:35:47.915
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
