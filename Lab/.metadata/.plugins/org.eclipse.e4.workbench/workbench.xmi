@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_4jb_oZLWEeWwBbWP8ZAheA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_4jb_opLWEeWwBbWP8ZAheA" bindingContexts="_4jb_qJLWEeWwBbWP8ZAheA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;data.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/data.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/Resources/data.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/jacobcarter/Documents/VFW1512/Lecture/2.2 Views and Labels/Resources/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/jacobcarter/Documents/VFW1512/Lecture/2.2%20Views%20and%20Labels/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Project_2/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/jacobcarter/Documents/VFW1512/Lecture/Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/jacobcarter/Documents/VFW1512/Lecture/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Demo/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Project_2/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;data.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/data.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Project_2/Resources/data.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/jacobcarter/Documents/VFW1512/Lecture/2.2 Views and Labels/Resources/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/jacobcarter/Documents/VFW1512/Lecture/2.2%20Views%20and%20Labels/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;/Users/jacobcarter/Documents/VFW1512/Lecture/Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable uri=&quot;file:/Users/jacobcarter/Documents/VFW1512/Lecture/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.appcelerator.titanium.ui.ide.tiappEditor&quot; name=&quot;tiapp.xml&quot; tooltip=&quot;Carter_Jacob_Demo/tiapp.xml&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/tiapp.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Demo/Resources/app.js&quot;>&#xA;&lt;persistable path=&quot;/Carter_Jacob_Demo/Resources/app.js&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_4jb_opLWEeWwBbWP8ZAheA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_6wj-gpLWEeWwBbWP8ZAheA" label="%trimmedwindow.label.eclipseSDK" x="21" y="23" width="1200" height="835">
@@ -46,11 +46,11 @@
           <tags>persp.actionSet:com.aptana.js.debug.ui.actionSet</tags>
           <tags>persp.newWizSC:com.appcelerator.titanium.mobile.project_wizard</tags>
           <tags>persp.newWizSC:com.appcelerator.titanium.mobile.module.wizard</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_6zyRoZLWEeWwBbWP8ZAheA" selectedElement="_6zyRopLWEeWwBbWP8ZAheA" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_6zyRoZLWEeWwBbWP8ZAheA" selectedElement="_6zyRqpLWEeWwBbWP8ZAheA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_6zyRopLWEeWwBbWP8ZAheA" containerData="2000" selectedElement="_6zyRo5LWEeWwBbWP8ZAheA">
               <children xsi:type="basic:PartStack" xmi:id="_6zyRo5LWEeWwBbWP8ZAheA" elementId="leftArea" containerData="7500" selectedElement="_6zyRppLWEeWwBbWP8ZAheA">
                 <tags>newtablook</tags>
-                <tags>active</tags>
+                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_6zyRpJLWEeWwBbWP8ZAheA" elementId="com.aptana.explorer.view" toBeRendered="false" ref="_6zuAMJLWEeWwBbWP8ZAheA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_6zyRpZLWEeWwBbWP8ZAheA" elementId="com.aptana.ui.io.remoteview" toBeRendered="false" ref="_6zunQJLWEeWwBbWP8ZAheA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_6zyRppLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_6zsyEJLWEeWwBbWP8ZAheA"/>
@@ -98,18 +98,25 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_6zldUJLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.editorss" selectedElement="_6zldUZLWEeWwBbWP8ZAheA">
-      <children xsi:type="basic:PartStack" xmi:id="_6zldUZLWEeWwBbWP8ZAheA" elementId="org.eclipse.e4.primaryDataStack">
+      <children xsi:type="basic:PartStack" xmi:id="_6zldUZLWEeWwBbWP8ZAheA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_rOXe4JhbEeWmtNUUEx8BgQ">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_rOXe4JhbEeWmtNUUEx8BgQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="app.js" iconURI="platform:/plugin/com.aptana.editor.js/icons/js.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.aptana.editor.js&quot; name=&quot;app.js&quot; partName=&quot;app.js&quot; title=&quot;app.js&quot; tooltip=&quot;Carter_Jacob_Project_2/Resources/app.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Carter_Jacob_Project_2/Resources/app.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.aptana.editor.js</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_6zsyEJLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_61FSIJLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -183,7 +190,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xYd4JLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_kRZiMJhaEeWLhJYTKpVVQA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_4j7H05LWEeWwBbWP8ZAheA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_fEJkwZhbEeWmtNUUEx8BgQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_4j7H05LWEeWwBbWP8ZAheA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xYd4ZLWEeWwBbWP8ZAheA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -204,7 +211,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xZE8JLWEeWwBbWP8ZAheA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_kRdzo5haEeWLhJYTKpVVQA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_4j22YpLWEeWwBbWP8ZAheA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_fEOdQJhbEeWmtNUUEx8BgQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_4j22YpLWEeWwBbWP8ZAheA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6xZE8ZLWEeWwBbWP8ZAheA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -637,7 +644,7 @@
       <tags>platform:cocoa</tags>
     </bindings>
     <bindings xmi:id="_4kyDcpLWEeWwBbWP8ZAheA" keySequence="COMMAND+SHIFT+D" command="_4j8WEpLWEeWwBbWP8ZAheA"/>
-    <bindings xmi:id="_jiCh0ZhaEeWLhJYTKpVVQA" keySequence="COMMAND+CTRL+F" command="_4k6mU5LWEeWwBbWP8ZAheA"/>
+    <bindings xmi:id="_cmlWIZhbEeWmtNUUEx8BgQ" keySequence="COMMAND+CTRL+F" command="_4k6mU5LWEeWwBbWP8ZAheA"/>
   </bindingTables>
   <bindingTables xmi:id="_4kaQA5LWEeWwBbWP8ZAheA" elementId="org.eclipse.debug.ui.memoryview" bindingContext="_4kAAXpLWEeWwBbWP8ZAheA">
     <bindings xmi:id="_4kaQBJLWEeWwBbWP8ZAheA" keySequence="COMMAND+W" command="_4j5SoJLWEeWwBbWP8ZAheA"/>
@@ -700,7 +707,7 @@
     <bindings xmi:id="_4ksj4pLWEeWwBbWP8ZAheA" keySequence="CTRL+D" command="_4j4ro5LWEeWwBbWP8ZAheA"/>
   </bindingTables>
   <bindingTables xmi:id="_4k7NZZLWEeWwBbWP8ZAheA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_4jb_q5LWEeWwBbWP8ZAheA">
-    <bindings xmi:id="_jiDI4JhaEeWLhJYTKpVVQA" keySequence="M1+W" command="_4k7NY5LWEeWwBbWP8ZAheA"/>
+    <bindings xmi:id="_cmlWIphbEeWmtNUUEx8BgQ" keySequence="M1+W" command="_4k7NY5LWEeWwBbWP8ZAheA"/>
   </bindingTables>
   <bindingTables xmi:id="_6zmrcZLWEeWwBbWP8ZAheA" bindingContext="_6zmrcJLWEeWwBbWP8ZAheA"/>
   <bindingTables xmi:id="_6znSgZLWEeWwBbWP8ZAheA" bindingContext="_6znSgJLWEeWwBbWP8ZAheA"/>
