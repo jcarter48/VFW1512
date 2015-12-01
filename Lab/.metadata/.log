@@ -6483,3 +6483,94 @@ Caused by: java.io.FileNotFoundException: /Applications/Appcelerator Studio/plug
 	at java.util.zip.ZipFile.<init>(ZipFile.java:159)
 	at org.eclipse.osgi.framework.util.SecureAction.getZipFile(SecureAction.java:288)
 	... 55 more
+
+!ENTRY org.eclipse.core.resources 4 271 2015-12-01 13:31:42.023
+!MESSAGE Errors occurred while refreshing resources with the local file system.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2015-12-01 13:31:42.023
+!MESSAGE The project description file (.project) for 'Carter_Jacob_Project_2' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.aptana.index.core 4 0 2015-12-01 13:31:42.139
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  /Users/jacobcarter/Documents/VFW1512/Lab/.metadata/.plugins/com.aptana.index.core/1662816464.index (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/jacobcarter/Documents/VFW1512/Lab/.metadata/.plugins/com.aptana.index.core/1662816464.index (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at com.aptana.internal.index.core.DiskIndex.readAllDocumentNames(DiskIndex.java:1001)
+	at com.aptana.internal.index.core.DiskIndex.mergeWith(DiskIndex.java:867)
+	at com.aptana.index.core.Index.save(Index.java:698)
+	at com.aptana.index.core.Index.save(Index.java:671)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildEnding(IndexBuildParticipant.java:84)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.core.build.UnifiedBuilder.buildEnding(UnifiedBuilder.java:230)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:201)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.index.core 4 0 2015-12-01 13:31:43.178
+!MESSAGE (Build 4.4.0.201511182122) [ERROR]  /Users/jacobcarter/Documents/VFW1512/Lab/.metadata/.plugins/com.aptana.index.core/1662816464.index (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/jacobcarter/Documents/VFW1512/Lab/.metadata/.plugins/com.aptana.index.core/1662816464.index (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+	at com.aptana.internal.index.core.DiskIndex.readAllDocumentNames(DiskIndex.java:1001)
+	at com.aptana.internal.index.core.DiskIndex.mergeWith(DiskIndex.java:867)
+	at com.aptana.index.core.Index.save(Index.java:698)
+	at com.aptana.index.core.Index.save(Index.java:671)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildEnding(IndexBuildParticipant.java:84)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildEnding(LazyBuildParticipant.java:67)
+	at com.aptana.core.build.UnifiedBuilder.buildEnding(UnifiedBuilder.java:230)
+	at com.aptana.core.build.UnifiedBuilder.build(UnifiedBuilder.java:201)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2015-12-01 13:31:43.344
+!MESSAGE Could not write metadata for '/Carter_Jacob_Project_2'.
+!STACK 0
+java.io.FileNotFoundException: /Users/jacobcarter/Documents/VFW1512/Lab/.metadata/.plugins/org.eclipse.core.resources/.projects/Carter_Jacob_Project_2/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2085)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1214)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at com.aptana.git.core.GitProjectRefresher$1.runInWorkspace(GitProjectRefresher.java:138)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2015-12-01 13:31:51.032
+!MESSAGE Could not write metadata for '/Carter_Jacob_Project_2'.
+!STACK 0
+java.io.FileNotFoundException: /Users/jacobcarter/Documents/VFW1512/Lab/.metadata/.plugins/org.eclipse.core.resources/.projects/Carter_Jacob_Project_2/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2085)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1214)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at com.aptana.git.core.GitProjectRefresher$1.runInWorkspace(GitProjectRefresher.java:138)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
