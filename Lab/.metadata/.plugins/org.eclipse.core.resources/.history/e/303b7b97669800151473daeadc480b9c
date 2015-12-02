@@ -1,0 +1,36 @@
+var win = Titanium.UI.createWindow({
+	backgroundColor: "#fff",
+	backgroundImage: "league.jpg"
+});
+
+var characters = Titanium.UI.createView({
+	backgroundImage:"Bard.png",
+	width: 350,
+	height: 350
+	//characterArray : ["Bard", "Kindred", "Gnar", "Lulu", "Nami", "Thresh"]
+});
+
+
+var names = Titanium.UI.createLabel({
+	text: "Bard",
+	color: "#fff",
+	bottom: 75,
+	font: {fontSize: "80px", fontFamily: "Verdana-Bold"}
+});
+
+var back = Titanium.UI.createView({
+	backgroundImage:"back_button.png",
+	width: 50,
+	height: 50,
+	left: 0,
+	bottom: 50
+});
+
+var forward = Titanium.UI.createView({
+	backgroundImage:"forward_button.png",
+	width: 50,
+	height: 50
+});
+
+win.add(characters, names, back, forward);
+win.open();
