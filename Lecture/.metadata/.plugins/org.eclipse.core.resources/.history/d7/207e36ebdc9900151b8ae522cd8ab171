@@ -1,0 +1,18 @@
+var titles = [
+	"Mario",
+	"Luigi"
+];
+
+var description = [
+	"Plumber in Red",
+	"Plumber in Green"
+];
+
+var photos = [
+	"mario.jpg",
+	"luigi.png"
+];
+
+exports.titles = titles;
+exports.descriptsions = descriptions;
+exports.photos = photos;

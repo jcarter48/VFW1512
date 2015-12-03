@@ -1,0 +1,54 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#605BC8"
+});
+
+var buttonGreen = Ti.UI.createView({
+	backgroundColor: "#5BC86B",
+	width: 150,
+	height: 100,
+	borderColor: "#fff",
+	borderWidth: 4,
+	borderRadius: 10,
+	top: 60 
+});
+
+var labelGreen = Ti.UI.createLabel({
+	text: "Button 1",
+	color: "#fff",
+	font: {fontSize: 24, 
+		//fontWeight: "bold", 
+		fontFamily:"Futura-CondensedExtraBold"},
+		//top: 10
+});
+
+var buttonYellow = Ti.UI.createView({
+	backgroundColor: "#A8BF40",
+	width: 150,
+	height: 100,
+	borderColor: "#fff",
+	borderWidth: 4,
+	borderRadius: 10,
+	top: 220
+});
+
+var labelYellow = Ti.UI.createLabel({
+	text: "Button 1",
+	color: "#fff",
+	font: {fontSize: 24, 
+		//fontWeight: "bold", 
+		fontFamily:"Futura-CondensedExtraBold"},
+		//top: 10
+});
+
+buttonGreen.add(labelGreen);
+buttonYellow.add(labelYellow);
+win.add(buttonGreen, buttonYellow);
+
+var alertMe = function(){
+	alert(this);
+};
+
+buttonGreen.addEventListener("click", alertMe);
+buttonYellow.addEventListener("click", alertMe);
+
+win.open();

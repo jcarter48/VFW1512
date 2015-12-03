@@ -1,0 +1,4 @@
+var cities = ["London", "Paris", "Egypt", "Bangkok", "Uganda"];
+
+//Foods array is available because it is in the bootstrap file
+console.log(foods[1]);

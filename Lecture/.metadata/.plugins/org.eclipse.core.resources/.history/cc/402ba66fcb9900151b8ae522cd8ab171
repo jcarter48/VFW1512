@@ -1,0 +1,22 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#605BC8"
+});
+
+var buttonGreen = Ti.UI.createView({
+	backgroundColor: "#5BC86B",
+	width: 100,
+	height: 100,
+	borderColor: "#fff",
+	borderWidth: 4,
+	borderRadius: 20
+});
+
+var labelGreen = Ti.UI.createLabel({
+	text: "Button 1",
+	color: "#fff",
+	font: {fontSize: 40}
+});
+
+win.add(buttonGreen, labelGreen);
+
+win.open();

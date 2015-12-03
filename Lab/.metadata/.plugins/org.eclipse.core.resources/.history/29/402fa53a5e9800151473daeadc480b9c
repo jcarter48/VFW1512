@@ -1,6 +1,0 @@
-var win = Titanium.UI.createWindow({
-	backgroundColor: "#fff"
-});
-
-
-win.open();
