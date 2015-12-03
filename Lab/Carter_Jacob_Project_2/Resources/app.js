@@ -3,6 +3,9 @@ var win = Titanium.UI.createWindow({
 	backgroundImage: "background.jpg"
 });
 
+var data = require("data");
+
+
 var names = Titanium.UI.createLabel({
 	text: "Kindred",
 	color: "#fff",
@@ -14,7 +17,9 @@ var characters = Titanium.UI.createView({
 	backgroundImage:"Kindred.png",
 	width: 150,
 	height: 150,
-	top: 190	
+	top: 190,
+	borderColor: "#fff",
+	borderWidth: 5
 	//want to add border cant get it to work with illustrator or code
 	//characterArray : ["Bard", "Kindred", "Gnar", "Lulu", "Nami", "Thresh"]
 });
@@ -22,10 +27,19 @@ var characters = Titanium.UI.createView({
 var description = Titanium.UI.createLabel({
 	text: "Separate, but never parted, Kindred represents the twin essences of death. Lamb’s bow offers a swift release from the mortal realm for those who accept their fate. Wolf hunts down those who run from their end, delivering violent finality within his crushing jaws. Though interpretations of Kindred’s nature vary across Runeterra, every mortal must choose the true face of their death.",
 	color: "#fff",
-	right: 20,
-	left: 20,
+	right: 24,
+	left: 24,
 	font: {fontSize: "15px", fontFamily: "Verdana-Bold"},
 	bottom: 110
+});
+
+var descBox = Ti.UI.createView({
+	backgroundColor: "#fff",
+	left: 20,
+	right: 20,
+	top: 355,
+	bottom: 100,
+	opacity: .50,
 });
 
 var back = Titanium.UI.createView({
@@ -44,5 +58,7 @@ var forward = Titanium.UI.createView({
 	bottom: 40
 });
 
-win.add(names, characters, description, back, forward);
+//back.addEventListener("click",);
+//forward.addEventListener("click",);
+win.add(names, characters, description, descBox, back, forward);
 win.open();
