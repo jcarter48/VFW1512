@@ -4,41 +4,41 @@ var win = Titanium.UI.createWindow({
 });
 
 var data = require("data");
-//console.log(data.characters.names[]);
+console.log(data.characters.names[0,1,2,3,4]);
 //Functionality
-var counter = 0;
+/*var counter = 0;
 var wasClicked = function(){
 	counter++;
-	names.text = counter;
+	data.characters.names = counter;
 };
 var previous = function(){
 	if (counter <= 0){
-		counter = data.characters.names.length-1;
+		counter = data.array.length-1;
 	}else{
 		counter--;
 	};
-	names.text = data.characters.names[counter];
+	para.text = data.array[counter];
 };
 var next = function(){
-	if (counter >= data.characters.names.length-1){
+	if (counter >= data.array.length-1){
 		counter = 0;
 	}else{
 		counter++;
 	};
-	names.text = data.characters.names[counter];
+	para.text = data.array[counter];
 };
 
 
 //Labels and Views
 var names = Titanium.UI.createLabel({
-	text: data.characters.names.characters,
+	text: data.names.array[0],
 	color: "#fff",
 	top: 80,
 	font: {fontSize: "80px", fontFamily: "Verdana-Bold"}
 });
 
 var characters = Titanium.UI.createView({
-	backgroundImage: data.characters.portrait[0],
+	backgroundImage: data.portrait.array[0],
 	width: 150,
 	height: 150,
 	top: 190,
@@ -49,7 +49,7 @@ var characters = Titanium.UI.createView({
 });
 
 var description = Titanium.UI.createLabel({
-	text: data.characters.desc[0],
+	text: data.desc.array[0],
 	color: "#fff",
 	right: 24,
 	left: 24,
@@ -82,7 +82,7 @@ var forward = Titanium.UI.createView({
 	bottom: 40
 });
 
-back.addEventListener("click", previous);
-forward.addEventListener("click", next);
-win.add(names, characters, description, descBox, back, forward); 
+//back.addEventListener("click",);
+//forward.addEventListener("click",);
+win.add(names, characters, description, descBox, back, forward); */
 win.open();

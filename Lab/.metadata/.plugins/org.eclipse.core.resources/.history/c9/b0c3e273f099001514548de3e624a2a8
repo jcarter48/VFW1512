@@ -82,7 +82,7 @@ var forward = Titanium.UI.createView({
 	bottom: 40
 });
 
-back.addEventListener("click", previous);
-forward.addEventListener("click", next);
+//back.addEventListener("click",);
+//forward.addEventListener("click",);
 win.add(names, characters, description, descBox, back, forward); 
 win.open();
