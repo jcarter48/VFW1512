@@ -49,6 +49,8 @@ var pictures = Titanium.UI.createView({
 	top: 190,
 	borderColor: "#fff",
 	borderWidth: 5
+	//want to add border cant get it to work with illustrator or code
+	//characterArray : ["Bard", "Kindred", "Gnar", "Lulu", "Nami", "Thresh"]
 });
 
 var description = Titanium.UI.createLabel({
@@ -84,8 +86,6 @@ var forward = Titanium.UI.createView({
 	bottom: 40
 });
 
-
-//event listeners, adding text to descbox, adding stuff to window, and opening window
 back.addEventListener("click", previous);
 forward.addEventListener("click", next);
 descBox.add(description);

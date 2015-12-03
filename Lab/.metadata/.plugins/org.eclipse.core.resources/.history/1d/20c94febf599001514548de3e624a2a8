@@ -49,6 +49,8 @@ var pictures = Titanium.UI.createView({
 	top: 190,
 	borderColor: "#fff",
 	borderWidth: 5
+	//want to add border cant get it to work with illustrator or code
+	//characterArray : ["Bard", "Kindred", "Gnar", "Lulu", "Nami", "Thresh"]
 });
 
 var description = Titanium.UI.createLabel({
