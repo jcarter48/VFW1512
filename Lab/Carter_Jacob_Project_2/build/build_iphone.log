@@ -1,5 +1,5 @@
 
-12/3/2015, 1:59:00 PM
+12/3/2015, 2:22:16 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project_2 --target simulator --ios-version 9.1 --device-family universal --sim-type iphone --sim-version 9.1 --device-id DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 65076 --plugin-paths /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-1449169137415.json --no-banner
+  /usr/local/bin/node /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project_2 --target simulator --ios-version 9.1 --device-family universal --sim-type iphone --sim-version 9.1 --device-id DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 65076 --plugin-paths /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-1449170533182.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51
 [TRACE]  [ioslib] Found iOS Simulator UDID DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51
@@ -72,7 +72,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-024c73867b438e9895d231186a246b07e5210290.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 76088.897 sec ago
+[TRACE]  optimizing build, last build was 77485.81 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -162,21 +162,23 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 146ms
+[INFO]   Finished building the application in 2s 120ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 6s
 [TRACE]  [ioslib]   UDID    = DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51
 [TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.1.1
-[TRACE]  [ioslib] Removing old log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51/data/Containers/Data/Application/201838BE-08EC-43DF-BC01-6980C567A467/Documents/43b19a6f-42f2-44ea-9aaa-57f1d16b723f.log
-[TRACE]  [ioslib] iPhone 6s Simulator already running with the correct udid
+[TRACE]  [ioslib] Removing old log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51/data/Containers/Data/Application/4BF641FE-CB13-48FB-BADB-3F2CFC69E72B/Documents/43b19a6f-42f2-44ea-9aaa-57f1d16b723f.log
 [TRACE]  [ioslib] Tailing iPhone 6s Simulator system log: /Users/jacobcarter/Library/Logs/CoreSimulator/DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51
+[TRACE]  [ioslib] iPhone 6s Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51
+[TRACE]  [ioslib] iPhone 6s Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
 [TRACE]  [ioslib] iPhone 6s Simulator successfully focused
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51 /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project_2/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project_2.app
 [TRACE]  [ioslib] App installed
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51 com.carter.project2
 [TRACE]  [ioslib] App launched
+[TRACE]  [ioslib] Found application log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51/data/Containers/Data/Application/75259156-6367-49C5-AAEC-39C37C5586EA/Documents/43b19a6f-42f2-44ea-9aaa-57f1d16b723f.log
 [TRACE]  [Carter_Jacob_Project_2] assertion failed: 14F1021 13B137: libxpc.dylib + 58126 [0F47719F-3076-3664-A64B-CEB6901B254D]: 0x7d
-[TRACE]  [ioslib] Found application log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51/data/Containers/Data/Application/4BF641FE-CB13-48FB-BADB-3F2CFC69E72B/Documents/43b19a6f-42f2-44ea-9aaa-57f1d16b723f.log
-[TRACE]  [ioslib] Detected crash, but no crash file

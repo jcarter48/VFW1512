@@ -64,8 +64,8 @@ var descBox = Ti.UI.createView({
 	backgroundColor: "#50ffffff",
 	left: 20,
 	right: 20,
-	top: 360,
-	bottom: 110,
+	top: 350,
+	bottom: 100,
 	//opacity: .50,
 });
 

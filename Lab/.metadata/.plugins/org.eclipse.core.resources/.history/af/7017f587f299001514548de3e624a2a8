@@ -56,16 +56,14 @@ var description = Titanium.UI.createLabel({
 	text: data.characters.desc[0],
 	color: "#fff",
 	font: {fontSize: "15px", fontFamily: "Verdana-Bold"},
-	left: 15,
-	right: 15
 });
 
 var descBox = Ti.UI.createView({
 	backgroundColor: "#50ffffff",
 	left: 20,
 	right: 20,
-	top: 360,
-	bottom: 110,
+	top: 355,
+	bottom: 100,
 	//opacity: .50,
 });
 

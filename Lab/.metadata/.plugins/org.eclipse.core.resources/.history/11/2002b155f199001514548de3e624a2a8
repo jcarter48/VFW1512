@@ -18,8 +18,6 @@ var previous = function(){
 		counter--;
 	};
 	names.text = data.characters.names[counter];
-	pictures.backgroundImage = data.characters.portrait[counter];
-	description.text = data.characters.desc[counter];
 };
 var next = function(){
 	if (counter >= data.characters.names.length-1){
@@ -28,8 +26,6 @@ var next = function(){
 		counter++;
 	};
 	names.text = data.characters.names[counter];
-	pictures.backgroundImage = data.characters.portrait[counter];
-	description.text = data.characters.desc[counter];
 };
 
 
@@ -41,7 +37,7 @@ var names = Titanium.UI.createLabel({
 	font: {fontSize: "80px", fontFamily: "Verdana-Bold"}
 });
 
-var pictures = Titanium.UI.createView({
+var characters = Titanium.UI.createView({
 	backgroundImage: data.characters.portrait[0],
 	width: 150,
 	height: 150,
@@ -55,18 +51,19 @@ var pictures = Titanium.UI.createView({
 var description = Titanium.UI.createLabel({
 	text: data.characters.desc[0],
 	color: "#fff",
+	right: 24,
+	left: 24,
 	font: {fontSize: "15px", fontFamily: "Verdana-Bold"},
-	left: 15,
-	right: 15
+	bottom: 110
 });
 
 var descBox = Ti.UI.createView({
-	backgroundColor: "#50ffffff",
+	backgroundColor: "#fff",
 	left: 20,
 	right: 20,
-	top: 360,
-	bottom: 110,
-	//opacity: .50,
+	top: 355,
+	bottom: 100,
+	opacity: .50,
 });
 
 var back = Titanium.UI.createView({
@@ -87,6 +84,5 @@ var forward = Titanium.UI.createView({
 
 back.addEventListener("click", previous);
 forward.addEventListener("click", next);
-descBox.add(description);
-win.add(names, pictures, descBox, back, forward); 
+win.add(names, characters, description, descBox, back, forward); 
 win.open();

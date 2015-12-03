@@ -55,18 +55,20 @@ var pictures = Titanium.UI.createView({
 var description = Titanium.UI.createLabel({
 	text: data.characters.desc[0],
 	color: "#fff",
+	right: 24,
+	left: 24,
+	height: 300,
 	font: {fontSize: "15px", fontFamily: "Verdana-Bold"},
-	left: 15,
-	right: 15
+	bottom: 110
 });
 
 var descBox = Ti.UI.createView({
-	backgroundColor: "#50ffffff",
+	backgroundColor: "#fff",
 	left: 20,
 	right: 20,
-	top: 360,
-	bottom: 110,
-	//opacity: .50,
+	top: 355,
+	bottom: 100,
+	opacity: .50,
 });
 
 var back = Titanium.UI.createView({
