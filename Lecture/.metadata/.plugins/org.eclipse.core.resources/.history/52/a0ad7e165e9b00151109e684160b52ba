@@ -1,0 +1,10 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#f2f2f2"
+});
+
+var theImage = Ti.UI.createImageView({
+	image:"https://i.ytimg.com/vi/nY2jv4GWUhQ/maxresdefault.jpg"
+});
+
+win.add(theImage);
+win.open();

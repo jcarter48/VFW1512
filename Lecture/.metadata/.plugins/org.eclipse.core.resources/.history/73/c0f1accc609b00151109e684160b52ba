@@ -1,0 +1,20 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#f2f2f2",
+});
+
+var gallery = [
+	"bmKalista.jpg",
+	"dinoGnar.jpg",
+	"dsBraum.jpg",
+	"yasuo.jpg"
+];
+
+
+var image1 = Ti.UI.createImageView({
+	image:"photos/" = gallery[0]
+});
+
+console.log(gallery);
+
+win.add(image1);
+win.open();
