@@ -1,0 +1,23 @@
+Ti.UI.setBackgroundColor("eee");
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	top: 20
+});
+
+//images
+var galleryFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory,"photos");
+var gallery = galleryFolder.getDirectoryListing();
+
+for(var i=0; i<26; i++){
+	console.log("photos/" + gallery[i]);
+	
+	var images = Ti.UI.createImageView({
+		image: "photos/" + gallery[i],
+		width:100,
+		height: 100,
+		top: 130*i
+	});
+	win.add(images);
+}
+
+win.open();

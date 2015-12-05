@@ -1,0 +1,36 @@
+Ti.UI.setBackgroundColor("eee");
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	top: 20
+});
+
+//ScrollView
+var viewContainer = Ti.UI.createScrollView({
+	//borderColor: "red",
+	layout: "horizontal",
+	//To Scroll Horizontally, set contentHeight to device size and set contentWidth to larger than device, i.e.
+	//contentWidth: 300,
+	//contentHeight: 600
+	//To Scroll Vertically, set contentWidth to device size, i.e.
+	contentWidth: 300,
+	showVerticalScrollIndicator: true
+});
+
+//images
+var galleryFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory,"images");
+var gallery = galleryFolder.getDirectoryListing();
+
+for(var i=0; i<gallery.length; i++){
+	console.log("images" + gallery[i]);
+	
+	var images = Ti.UI.createImageView({
+		image: "images/" + gallery[i],
+		width:160,
+		height: 90
+	});
+	viewContainer.add(images);
+	//win.add(images);
+}
+
+win.add(viewContainer);
+win.open();

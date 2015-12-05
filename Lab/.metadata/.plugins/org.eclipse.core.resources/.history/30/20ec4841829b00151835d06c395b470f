@@ -1,0 +1,35 @@
+Ti.UI.setBackgroundColor("fff");
+var win = Ti.UI.createWindow({
+	backgroundImage: "background.jpg",
+	top: 20
+});
+
+//ScrollView
+var viewContainer = Ti.UI.createScrollView({
+	layout: "horizontal",
+	contentWidth: 300,
+	showVerticalScrollIndicator: true
+});
+
+//images
+var galleryFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory,"images");
+var gallery = galleryFolder.getDirectoryListing();
+
+for(var i=0; i<gallery.length; i++){
+	//console.log("images" + gallery[i]);
+	
+	var images = Ti.UI.createImageView({
+		image: "images/" + gallery[i],
+		width:320,
+		height: 180,
+		//right: 10,
+		bottom: 10,
+		left: 28,
+		//borderColor: "#000",
+	});
+	viewContainer.add(images);
+	//win.add(images);
+}
+
+win.add(viewContainer);
+win.open();

@@ -1,9 +1,11 @@
 =run
 Carter_Jacob_Demo\:launchMode=run
 Carter_Jacob_Demo\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.device.launchShortcut
+Carter_Jacob_Project3\:launchMode=run
+Carter_Jacob_Project3\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
 Carter_Jacob_Project_2\:launchMode=run
 Carter_Jacob_Project_2\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.DF7D56BC-7BD8-4AAB-AA03-8BDD8D034D51
-LAST_LAUNCH_TIMESTAMP=1449166260172
+LAST_LAUNCH_TIMESTAMP=1449339116960
 Test\:launchMode=run
 Test\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.7E2DA08F-72E8-47C4-AE18-CF300A41DAC0
 eclipse.preferences.version=1
