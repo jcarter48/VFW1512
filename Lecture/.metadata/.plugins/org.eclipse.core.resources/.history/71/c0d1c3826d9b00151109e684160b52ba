@@ -1,0 +1,30 @@
+Ti.UI.setBackgroundColor("eee");
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	top: 20
+});
+
+var viewContainer = Ti.UI.createScrollView({
+	borderColor: "red",
+	layout: "horizonatal"
+});
+
+for(var i=0; i<20; i++){
+	var view = Ti.UI.createView({
+		width: 100,
+		height: 100,
+		backgroundColor: "#DD6255",
+		bottom: 10,
+		left: 10,
+	});
+	var label = Ti.UI.createLabel({
+		text: i+1,
+		color: "#fff"
+	});
+	view.add(label);
+	viewContainer.add(view);
+	//win.add(view);
+}
+
+win.add(viewContainer);
+win.open();
