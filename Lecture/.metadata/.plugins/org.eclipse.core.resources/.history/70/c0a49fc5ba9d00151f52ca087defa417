@@ -1,0 +1,36 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var openButton = Ti.UI.createView({
+	backgroundColor: "blue",
+	borderRadius: 20,
+	width: 100,
+	height: 100
+});
+
+var closeButton = Ti.UI.createView({
+	backgroundColor: "gray",
+	borderRadius: 20,
+	width: 100,
+	height: 100
+});
+
+var swipeView = Ti.UI.createScrollableView({
+	showPagingControl: true,
+	backgroundColor: "green"
+	});
+	
+var openSwipe = function(){
+	win.add(swipeView);
+};
+
+var closeSwipe = function(){
+	win.remove(swipeView);
+};
+
+win.add(openButton);
+openButton.addEventListener("click", openSwipe);
+swipeView.addEventListener("click", closeSwipe);
+
+win.open();

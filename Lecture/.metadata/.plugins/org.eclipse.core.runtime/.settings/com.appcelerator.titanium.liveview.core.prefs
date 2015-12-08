@@ -5,3 +5,4 @@ liveview\:3.2\ Exports=true
 liveview\:4.1\ ImageViews=true
 liveview\:4.2\ Layout\ Modes=true
 liveview\:4.3\ Scroll\ Views=true
+liveview\:5.1\ SwipeViews=true

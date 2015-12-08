@@ -1,0 +1,15 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "red"
+});
+
+var openSwipe = function(){
+var swipeView = Ti.UI.createScrollableView({
+	showPagingControl: true
+	});
+	win.add(swipeView);
+	
+};
+
+
+win.add(swipeView);
+win.open();
