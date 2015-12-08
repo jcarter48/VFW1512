@@ -18,8 +18,6 @@ var scrollView = Ti.UI.createScrollView({
 });
 
 
-
-
 //bottom, left here and top in scrollview are the same so there is even empty space everywhere!
 for(var i=0; i<gallery.length; i++){
 	var imageView = Ti.UI.createImageView({
@@ -29,13 +27,16 @@ for(var i=0; i<gallery.length; i++){
 		bottom: 28,
 		//left: 28,
 		borderColor: "#fff",
-		borderWidth: 1
+		borderWidth: 1,
+		id: i
 	});
 	scrollView.add(imageView);
+	imageView.addEventListener("click", function(){
+	swipe.swipeView.currentPage = this.id;
+	swipe.swipeWin.open();
+	console.log(this.id);
+});
 }
 
-scrollView.addEventListener("click", function(){
-	swipe.swipeWin.open();
-});
 win.add(scrollView);
 win.open();

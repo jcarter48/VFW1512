@@ -1,5 +1,5 @@
 var swipeWin = Ti.UI.createWindow({
-	backgroundColor: "black"
+	backgroundImage: "background.jpg",
 });
 
 
@@ -25,11 +25,12 @@ var swipeView = Ti.UI.createScrollableView({
    //showPagingControl:true,
    maxZoomScale: 4.0,
    //width: "100%",
-   bottom: 40 
+   bottom: 40,
+   currentPage: 0,
 });
 
 var closeButton = Ti.UI.createView({
-	backgroundColor: "black",
+	backgroundColor: "#50000000",
 	height: 40,
 	bottom: 0
 });
@@ -43,8 +44,14 @@ swipeWin.add(swipeView);
 closeButton.add(closeLabel);
 swipeWin.add(closeButton);
 
+swipeView.addEventListener("scrollend", function(){
+	//swipeView.currentPage = currentPage;
+	console.log(swipeView.currentPage);
+});
+
 closeButton.addEventListener("click", function(){
 	swipeWin.close();
 });
 
 exports.swipeWin = swipeWin;
+exports.swipeView = swipeView;
