@@ -8,8 +8,7 @@ viewContainer = [];
 
 for(var i=0; i<gallery.length; i++){
 	var imageView = Ti.UI.createImageView({
-		image: "images/" + gallery[i],
-		width: "100%"
+		image: "images/" + gallery[i]
 	});
 	//wrapper
 	var imgWrapper = Ti.UI.createScrollView({
@@ -23,8 +22,7 @@ for(var i=0; i<gallery.length; i++){
 var swipeView = Ti.UI.createScrollableView({
    views: viewContainer,
    //showPagingControl:true,
-   maxZoomScale: 4.0,
-   //width: "100%",
+   width: 100%
    bottom: 40 
 });
 
