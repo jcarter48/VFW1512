@@ -1,7 +1,12 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
 var img1 = Ti.UI.createImageView({
     image:'http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/' +
     'Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/' +
-    '402px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg'
+    '402px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg',
+    width: "100%"
 });
 var img1Wrapper = Ti.UI.createScrollView({
     maxZoomScale:4.0,
@@ -10,7 +15,8 @@ img1Wrapper.add(img1);
 
 var img2 = Ti.UI.createImageView({
     image:'http://www.nasa.gov/images/content/' + 
-    '616903main_rover_comparison1600_1600-1200.jpg'
+    '616903main_rover_comparison1600_1600-1200.jpg',
+    width: "100%"
 });
 var img2Wrapper = Ti.UI.createScrollView({
     maxZoomScale:4.0,
@@ -19,5 +25,10 @@ img2Wrapper.add(img2);
 var photosView = Ti.UI.createScrollableView({
     showPagingControl:true,
     views:[img1Wrapper, img2Wrapper]
+   
 });
 win.add(photosView);
+photosView.addEventListener("scrollend", function(){
+	this.views[this.currentPage].setZoomScale(.5, {animated:true});
+});
+win.open();
