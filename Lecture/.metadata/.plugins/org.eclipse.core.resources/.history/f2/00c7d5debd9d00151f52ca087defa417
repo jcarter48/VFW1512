@@ -1,5 +1,3 @@
-var swipe = require("swipe");
-
 var win = Ti.UI.createWindow({
 	backgroundColor: "#fff"
 });
@@ -13,10 +11,8 @@ var openButton = Ti.UI.createView({
 	
 win.add(openButton);
 openButton.addEventListener("click", function(){
-	swipe.swipeWin.open();
+	swipeWin.open();
 });
 
 
-//win.open();
-//will make first one to open if comment out win.open();
-swipe.swipeWin.open();
+win.open();

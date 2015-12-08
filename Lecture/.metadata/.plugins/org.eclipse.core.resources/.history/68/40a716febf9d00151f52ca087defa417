@@ -17,6 +17,6 @@ openButton.addEventListener("click", function(){
 });
 
 
-//win.open();
+win.open();
 //will make first one to open if comment out win.open();
-swipe.swipeWin.open();
+//swipe.swipeWin.open();
