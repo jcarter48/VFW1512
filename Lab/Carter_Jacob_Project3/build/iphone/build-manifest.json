@@ -3241,9 +3241,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "8bd162b2ae60c1e1a42d2f95c5b77ead",
-			"mtime": "2015-11-19T05:49:10.000Z",
-			"size": 493
+			"hash": "92f8ce0b202ea29bd661c1221953b6b2",
+			"mtime": "2015-12-08T18:53:28.000Z",
+			"size": 81870
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3279,7 +3279,7 @@
 	"publisher": "jacobcarter",
 	"url": "",
 	"version": "1.0",
-	"description": "",
+	"description": "undefined",
 	"copyright": "2015 by jacobcarter",
 	"guid": "6559a1b7-3187-4f9d-9999-b888be4fe79c",
 	"skipJSMinification": true,

@@ -1,0 +1,13 @@
+var swipeWin = Ti.UI.createWindow({
+	backgroundColor: "black"
+});
+
+var swipeView = Ti.UI.createScrollableView({
+  views: gallery,
+  showPagingControl:true,
+  bottom: 40
+});
+
+swipeWin.add(swipeView);
+
+exports.swipeWin = swipeWin;
