@@ -15,6 +15,10 @@
 4.3\ Scroll\ Views\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
 5.1\ SwipeViews\:launchMode=run
 5.1\ SwipeViews\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
+5.2\ SwipeView\ Events\:launchMode=run
+5.2\ SwipeView\ Events\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
+5.3\ SwipeViews\ Zoom\:launchMode=run
+5.3\ SwipeViews\ Zoom\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
 Carter_Jacob_Demo\:launchMode=run
 Carter_Jacob_Demo\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.256C4F05-9FE9-4F84-8B8E-4B73BDE875FC
 LAST_LAUNCH_TIMESTAMP=1449584560154

@@ -1,0 +1,31 @@
+var win = Ti.UI.createWindow();
+
+var outputLabel = Ti.UI.createLabel({
+	color: "#fff",
+	text: "Choose a color",
+	top: 80,
+	font: {fontSize: 30, fontWeight: "bold", fontFamily: ""}
+});
+
+var view1 = Ti.UI.createView({ backgroundColor:'#66C247', name: "Lime", family: "AmericanTypewriter-Bold " });
+var view2 = Ti.UI.createView({ backgroundColor:'#55424A9', name: "Plum", family: "Baskerville-BoldItalic "});
+var view3 = Ti.UI.createView({ backgroundColor:'#BD2E2E', name: "Cherry", family: "GurmukhiMN-Bold " });
+
+var swipeView = Ti.UI.createScrollableView({
+  views:[view1,view2,view3],
+  showPagingControl:true,
+  currentPage: 2,
+  top: 200
+});
+
+swipeView.addEventListener("scrollend", function(){
+	console.log(this.currentPage);
+	console.log(this.views[this.currentPage].backgroundColor);
+	outputLabel.text = this.views[this.currentPage].name;
+	outputLabel.color = this.views[this.currentPage].backgroundColor;
+	outputLabel.font.fontFamily = this.views[this.currentPage].font;
+});
+
+win.add(outputLabel);
+win.add(swipeView);
+win.open();
