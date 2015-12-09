@@ -44,10 +44,10 @@ swipeWin.add(swipeView);
 closeButton.add(closeLabel);
 swipeWin.add(closeButton);
 
-//swipeView.addEventListener("scrollend", function(){
+swipeView.addEventListener("scrollend", function(){
 	//swipeView.currentPage = currentPage;
-	//console.log(swipeView.currentPage);
-//});
+	console.log(swipeView.currentPage);
+});
 
 closeButton.addEventListener("click", function(){
 	swipeWin.close();

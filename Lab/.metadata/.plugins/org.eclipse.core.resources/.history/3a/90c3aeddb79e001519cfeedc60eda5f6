@@ -5,15 +5,14 @@ var swipe = require("swipe");
 
 //dynamic sizing
 var pWidth = Ti.Platform.displayCaps.platformWidth;
+console.log(pWidth);
 var itemCount = 26;
 var itemsInRow = 2;
 var margin = 10;
 var trueCanvasWidth = pWidth - (margin*(itemsInRow+1));
+console.log(trueCanvasWidth);
 var size = trueCanvasWidth/itemsInRow;
-//console.log(trueCanvasWidth);
-//console.log(pWidth);
 
-//win
 Ti.UI.setBackgroundColor("fff");
 
 var win = Ti.UI.createWindow({

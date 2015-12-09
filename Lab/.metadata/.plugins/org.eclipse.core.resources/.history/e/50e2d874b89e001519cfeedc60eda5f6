@@ -38,7 +38,7 @@ for(var i=0; i<gallery.length; i++){
 		bottom: margin,
 		left: margin,
 		borderColor: "#fff",
-		borderWidth: 1,
+		borderWidth: 2,
 		id: i
 		//id is for identifying what you clicked on
 	});

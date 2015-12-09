@@ -13,8 +13,7 @@ var size = trueCanvasWidth/itemsInRow;
 //console.log(trueCanvasWidth);
 //console.log(pWidth);
 
-//win
-Ti.UI.setBackgroundColor("fff");
+//win and
 
 var win = Ti.UI.createWindow({
 	backgroundImage: "background.jpg",

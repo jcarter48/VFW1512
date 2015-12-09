@@ -5,15 +5,14 @@ var swipe = require("swipe");
 
 //dynamic sizing
 var pWidth = Ti.Platform.displayCaps.platformWidth;
+console.log(pWidth);
 var itemCount = 26;
 var itemsInRow = 2;
 var margin = 10;
 var trueCanvasWidth = pWidth - (margin*(itemsInRow+1));
+console.log(trueCanvasWidth);
 var size = trueCanvasWidth/itemsInRow;
-//console.log(trueCanvasWidth);
-//console.log(pWidth);
 
-//win
 Ti.UI.setBackgroundColor("fff");
 
 var win = Ti.UI.createWindow({
@@ -25,8 +24,7 @@ var win = Ti.UI.createWindow({
 var scrollView = Ti.UI.createScrollView({
 	layout: "horizontal",
 	contentWidth: pWidth,
-	showVerticalScrollIndicator: true,
-	top: margin,
+	showVerticalScrollIndicator: true
 });
 
 
@@ -35,16 +33,15 @@ for(var i=0; i<gallery.length; i++){
 	var imageView = Ti.UI.createImageView({
 		image: "images/" + gallery[i],
 		width:size,
-		bottom: margin,
-		left: margin,
-		borderColor: "#fff",
-		borderWidth: 1,
+		//height: 90,
+		//bottom: 28,
+		left: 28,
+		//borderColor: "#fff",
+		//borderWidth: 1,
 		id: i
-		//id is for identifying what you clicked on
 	});
 	scrollView.add(imageView);
 	imageView.addEventListener("click", function(){
-	//using id to open what you clicked on
 	swipe.swipeView.currentPage = this.id;
 	swipe.swipeWin.open();
 	//console.log(this.id);
