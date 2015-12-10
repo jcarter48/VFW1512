@@ -1,0 +1,28 @@
+Ti.UI.setBackgroundColor("fff");
+
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	top: 20
+});
+
+var headerView = Ti.UI.createView({
+	backgroundColor: "#8171D0",
+	height: 100
+});
+
+var headerLabel = Ti.UI.createLabel({
+	color: "#fff",
+	text: "Groceries",
+	font: {
+		fontSize: 20,
+		fontWeight: "bold"
+	}
+});
+
+var table = Ti.UI.createTableView({
+	//headerTitle: "Test"
+	headerView: headerView
+});
+
+win.add(table);
+win.open();

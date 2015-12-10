@@ -1,0 +1,19 @@
+Ti.UI.setBackgroundColor("fff");
+
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff",
+	top: 20
+});
+
+var headerView = Ti.UI.createView({
+	backgroundColor: "#8171D0",
+	height: 100
+});
+
+var table = Ti.UI.createTableView({
+	//headerTitle: "Test"
+	headerView: headerView
+});
+
+win.add(table);
+win.open();
