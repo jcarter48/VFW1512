@@ -1,0 +1,28 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top:20,
+	headerTitle: "Groceries",
+	style: Titanium.UI.iPhone.TableViewStyle.GROUPED
+});
+
+var categories = ["Dairy", "Produce", "Household Goods", "Alcohol", "Deli"];
+
+var sectionCollection = [];
+
+for(i=0; i<categories.length; i++){
+	var section = Ti.UI.createTableViewSection({
+		headerTitle: categories[i]
+	});
+	//JUST LIKE USING the add method e.g.
+	//win.add(image)
+	//table.setData([section]);
+	sectionCollection.push(section);
+};
+
+table.setData([sectionCollection]);
+
+win.add(table);
+win.open();

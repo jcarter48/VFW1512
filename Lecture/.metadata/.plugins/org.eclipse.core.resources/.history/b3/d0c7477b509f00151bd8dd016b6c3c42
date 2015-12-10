@@ -1,0 +1,15 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top:20,
+	style: Titanium.UI.iPhone.TableViewStyle.GROUPED
+});
+
+var section = Ti.UI.createTableViewSection();
+
+table.setData([section]);
+
+win.add(view);
+win.open();

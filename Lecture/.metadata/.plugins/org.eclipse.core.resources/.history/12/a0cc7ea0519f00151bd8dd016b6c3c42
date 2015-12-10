@@ -1,0 +1,20 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top:20,
+	headerTitle: "Groceries",
+	style: Titanium.UI.iPhone.TableViewStyle.GROUPED
+});
+
+var categories = ["Dairy", "Produce", "Household Goods", "Alcohol", "Deli"];
+
+var section = Ti.UI.createTableViewSection({
+	headerTitle: categories[0]
+});
+
+table.setData([section]);
+
+win.add(table);
+win.open();
