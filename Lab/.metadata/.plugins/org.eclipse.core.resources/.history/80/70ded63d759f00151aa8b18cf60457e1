@@ -1,0 +1,42 @@
+var data = require("data");
+var detail = require("detail");
+
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Top 20 Favorite Champions",
+});
+
+var rowCollection = [];
+
+var categories = ["Top 10", "Others"];
+
+var sectionCollection = [];
+
+for(i=0; i<categories.length; i++){
+	var section = Ti.UI.createTableViewSection({
+		headerTitle: categories[i],
+		footerTitle: "Details"
+	});
+	sectionCollection.push(section);
+};
+
+for(var i=0; i<data.data.length; i++){
+	var row = Ti.UI.createTableViewRow({
+		title: data.data[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].title,
+		height: 50,
+		//backgroundColor: "#fff",
+		leftImage: "images/" + data.data[i].image,
+		desc: data.data[i].desc
+	});
+	row.addEventListener("click", detail.detail);
+	rowCollection.push(row);
+};
+
+table.setData(rowCollection, sectionCollection);
+
+win.add(table);
+win.open();

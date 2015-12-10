@@ -1,9 +1,0 @@
-var mainWindow = Ti.UI.createWindow({
-	backgroundColor: "gray"
-});
-
-var foods = ["noodles", "pizza", "salad", "burgers"];
-
-console.log(cities[2]);
-
-mainWindow.open();

@@ -3047,203 +3047,168 @@
 		},
 		"DefaultIcon.png": {
 			"hash": "b7af0eb69fc7ba7acbdf024b6d887e98",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 57128
 		},
 		"KS_nav_ui.png": {
 			"hash": "18ec851acf18b0938369efd0df278260",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 748
 		},
 		"KS_nav_views.png": {
 			"hash": "e147144461124f92c5407adec0572f45",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 683
 		},
-		"background.jpg": {
-			"hash": "2a834b4c723b372661bff16ee3923562",
-			"mtime": "2015-12-05T18:48:40.000Z",
-			"size": 374416
+		"images/Bard.png": {
+			"hash": "129ae6436e98b94d8f02ca27a969a65a",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 20162
 		},
-		"images/Annie.jpg": {
-			"hash": "935ef87e293af4fe0943b0b5ecd64924",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 583990
+		"images/Brand.png": {
+			"hash": "96a4928611e9e654f9c0b341c079d348",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 21137
 		},
-		"images/Azir.jpg": {
-			"hash": "1f82ba11851327c98edc63047b64fdfc",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 393148
+		"images/Diana.png": {
+			"hash": "78a6aafcb8e6cd6c86e4bae96870484b",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 13463
 		},
-		"images/Bard.jpg": {
-			"hash": "6939a72d423a904f3dbdbb24c0bb5a0f",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 293894
+		"images/Ekko.png": {
+			"hash": "f3b7a9a082ed1ab3c2ac5bc18d57dd3f",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 16768
 		},
-		"images/Brand.jpg": {
-			"hash": "da2f9d447f131cdde020e7bff42c857f",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 334116
+		"images/Fiora.png": {
+			"hash": "551405f3e611260c65199984f78fe2a6",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 19912
 		},
-		"images/Ekko.jpg": {
-			"hash": "c36eb7aacf9936d7ccb5bc64fe965e6a",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 395678
+		"images/Gangplank.png": {
+			"hash": "5c257e8662e0faabcd84476342206ce7",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 19904
 		},
-		"images/Fiora.jpg": {
-			"hash": "39236d14cbb52cd0d163afa601fcd7c4",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 389937
+		"images/Gnar.png": {
+			"hash": "c53cd67eff39a3e4e14eda403f5b9a0b",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 17050
 		},
-		"images/Gangplank.jpg": {
-			"hash": "c403cb71c945261a242273cbcdce491e",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 412958
+		"images/Hecarim.png": {
+			"hash": "39fa785746cd2e558ef0fbe0d48ce021",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 16430
 		},
-		"images/Hecarim.jpg": {
-			"hash": "b9403b66823a663961e75a7c3f785c2a",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 292158
+		"images/Kindred.png": {
+			"hash": "5da6eb09d9491984564f582252d5f86c",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 20167
 		},
-		"images/Kindred.jpg": {
-			"hash": "488c499cf167e41907622d33e6022f35",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 582623
+		"images/Lulu.png": {
+			"hash": "37fa52cb991e1c422fcf63ed77fa3dbb",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 17127
 		},
-		"images/LeeSin.jpg": {
-			"hash": "58eff3e30b76ea418fe7eeb81af83fe0",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 367990
+		"images/Maokai.png": {
+			"hash": "7e31f95a8223c30de4c78dbbb100fe1b",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 19322
 		},
-		"images/Lissandra.jpg": {
-			"hash": "99aa4d70574ad0c9b899f42accbfe60a",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 301150
+		"images/Nami.png": {
+			"hash": "79d6b0e55096664409c459db723e5c42",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 20881
 		},
-		"images/Lulu.jpg": {
-			"hash": "a9f56ba5ab1d6078444f78b1e0a35ddb",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 383127
+		"images/Orianna.png": {
+			"hash": "1b7c8af0987f92eb9c7be4f086efd324",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 16488
 		},
-		"images/Maokai.jpg": {
-			"hash": "5d61c26df9bb9da77181cf011fce49ed",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 618805
+		"images/Poppy.png": {
+			"hash": "295deaad9ec93939efde3d5d148fd49f",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 22878
 		},
-		"images/Mordekaiser.jpg": {
-			"hash": "14477d87471564ab7301958326e317bf",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 373859
+		"images/Riven.png": {
+			"hash": "43d1ebecd4a366a13d719259087751d8",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 17311
 		},
-		"images/Nami.jpg": {
-			"hash": "25f5794ae890ff39b8f2229e61155c57",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 321910
+		"images/Sona.png": {
+			"hash": "970dd0d440436e1e6bfaceff99631acb",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 17270
 		},
-		"images/Nidalee.jpg": {
-			"hash": "0b391fbe52081c3fc4d7e5086f517248",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 206222
+		"images/Thresh.png": {
+			"hash": "4b691640eccf5a82d1c37548ce4d7a2f",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 15614
 		},
-		"images/Riven.jpg": {
-			"hash": "2ea1165179730bd32e65f4978013b76d",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 374058
+		"images/Tristana.png": {
+			"hash": "ab9598449ced6237b549c64bbf8d375d",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 19174
 		},
-		"images/Ryze.jpg": {
-			"hash": "3844fbb904729224e9f91135aa25d476",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 329536
+		"images/Vi.png": {
+			"hash": "df9b9f3d602c10d6acea8dded2f7b11e",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 21742
 		},
-		"images/Sion.jpg": {
-			"hash": "36f009263cfe97101f652b6287e891c9",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 314109
-		},
-		"images/Sona.jpg": {
-			"hash": "68af8457f9b753c965bc1975b518db5a",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 553774
-		},
-		"images/Syndra.jpg": {
-			"hash": "4996c6a8ad6b422d8784c7e580577b04",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 257073
-		},
-		"images/Thresh.jpg": {
-			"hash": "d6d2d73e47e0634213224ac5b282bb0a",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 352551
-		},
-		"images/Tristana.jpg": {
-			"hash": "e74b50c2133106a207fb0508aa28894b",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 440050
-		},
-		"images/Velkoz.jpg": {
-			"hash": "150e54d32e5d4c9fcd8a213b776224a7",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 405438
-		},
-		"images/Vi.jpg": {
-			"hash": "6d0c7ba9f3ddaa5e00c22c4e393a872e",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 356698
-		},
-		"images/Yasuo.jpg": {
-			"hash": "c6db9080338ab1ed7e7e61fdd9bc4d8d",
-			"mtime": "2015-12-05T18:36:08.000Z",
-			"size": 395483
+		"images/Yasuo.png": {
+			"hash": "c91491b8441d102060f0ed0c1d9b9082",
+			"mtime": "2015-12-10T18:32:32.000Z",
+			"size": 19990
 		},
 		"Default-568h@2x.png": {
 			"hash": "39604172bca979c1482b8526b4b8b207",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 525880
 		},
 		"Default-667h@2x.png": {
 			"hash": "cd720a317ac99489153461875e284c48",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 513122
 		},
 		"Default-Landscape-736h@3x.png": {
 			"hash": "d169ee386c84d555e7d20bacf62a10ef",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 1754751
 		},
 		"Default-Landscape.png": {
 			"hash": "de8542049812d8a4f802b2b8e9080570",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 762755
 		},
 		"Default-Landscape@2x.png": {
 			"hash": "0a0292fb2d3807fba384be3e20bca8a7",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 2197000
 		},
 		"Default-Portrait-736h@3x.png": {
 			"hash": "2f066e1e962c31135a251b38f6393225",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 1039854
 		},
 		"Default-Portrait.png": {
 			"hash": "5c80a5231f93deb221521fa1c46de984",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 798136
 		},
 		"Default-Portrait@2x.png": {
 			"hash": "1b7ff9c56988f3d396295e1dfb21ede9",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 2228874
 		},
 		"Default@2x.png": {
 			"hash": "b62574a4fbe0f8216a44aff34bd62e05",
-			"mtime": "2015-12-05T18:35:19.000Z",
+			"mtime": "2015-12-10T18:18:17.000Z",
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "92f8ce0b202ea29bd661c1221953b6b2",
-			"mtime": "2015-12-08T18:53:28.000Z",
-			"size": 81870
+			"hash": "8bd162b2ae60c1e1a42d2f95c5b77ead",
+			"mtime": "2015-11-19T05:49:10.000Z",
+			"size": 493
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3279,9 +3244,9 @@
 	"publisher": "jacobcarter",
 	"url": "",
 	"version": "1.0",
-	"description": "undefined",
+	"description": "",
 	"copyright": "2015 by jacobcarter",
-	"guid": "6559a1b7-3187-4f9d-9999-b888be4fe79c",
+	"guid": "a2f0b3d3-181c-4195-9999-b888be4fe79c",
 	"skipJSMinification": true,
 	"encryptJS": false,
 	"useJSCore": false,

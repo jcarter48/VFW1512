@@ -1,0 +1,29 @@
+var detail = function(){
+	var detailWin = Ti.UI.createWindow({
+		backgroundColor: "#fff"
+		//layout: "vertical",
+		//modal: true
+	});
+	var detailImage = Ti.UI.createImageView({
+		width: 100,
+		height: 100,
+		top: 40,
+		image: this.leftImage
+	});
+	var detailLabel = Ti.UI.createLabel({
+		text: this.desc,
+		top: 20
+	});
+	detailWin.add(detailImage, detailLabel);
+	
+	detailWin.addEventListener("click", function(){
+		detailWin.close();
+	});
+	
+	detailWin.open();
+	console.log(this.title);
+	console.log(this.leftImage);
+	console.log(this.desc);
+};
+
+exports.detail = detail;

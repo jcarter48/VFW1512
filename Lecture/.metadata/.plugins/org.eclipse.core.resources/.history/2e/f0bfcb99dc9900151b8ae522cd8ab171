@@ -1,9 +1,0 @@
-var titles = [];
-
-var description = [];
-
-var photos = [];
-
-exports.titles = titles;
-exports.descriptsions = descriptions;
-exports.photos = photos;

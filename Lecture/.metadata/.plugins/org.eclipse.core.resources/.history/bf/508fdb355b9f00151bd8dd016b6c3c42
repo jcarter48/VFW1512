@@ -1,0 +1,40 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Groceries"
+});
+
+var getDetail = function(){
+	console.log("The row has been clicked!");
+};
+
+var list = [
+	{title: "Potato Chips", color: "#fdf496", photo: "chips.png", desc: "I refuse to eat chips if anyone else sticks their hand in the bag."},
+	{title: "Cheese", color: "#e1a72b", photo: "cheese.png", desc: "I don't like cheese on burgers."},
+	{title: "Tomatoes", color: "#f28367", photo: "tomatoes.png", desc: "BLT's have tomatoes and BLT's are good."},
+	{title: "Coca Cola", color: "#c43f32", photo: "coca cola.png", desc: "Coca Cola is a decent drink."},
+	{title: "Pineapples", color: "#7f8562", photo: "pineapple.png" desc: "Pineapples are weird, personally I don't like them."},
+	{title: "Coconut Rum", color: "#9f7348", photo: "coconut rum.png", desc: "Something something underage drinking is bad."},
+];
+
+var rowCollection = [];
+
+//for tableviews all images must have same width
+for(var i=0; i<list.length; i++){
+	var row = Ti.UI.createTableViewRow({
+	title: list[i].title,
+	height: 50,
+	backgroundColor: list[i].color,
+	leftImage: "images/" + list[i].photo
+	});
+	row.addEventListener("click", getDetail);
+	rowCollection.push(row);
+};
+
+table.setData(rowCollection);
+
+win.add(table);
+win.open();

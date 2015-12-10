@@ -1,9 +1,0 @@
-var mainWindow = Ti.UI.createWindow({
-	backgroundColor: "gray"
-});
-
-var cities = ["London, Paris, Egypt, Bangkok, Uganda"];
-
-console.log(cities[2]);
-
-mainWindow.open();

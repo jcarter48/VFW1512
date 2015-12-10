@@ -1,0 +1,60 @@
+var data = require("data");
+var detail = require("detail");
+
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Top 20 Favorite Champions",
+});
+
+
+
+var categories = ["Top 10", "Others"];
+
+//var sectionCollection = [];
+
+// for(i=0; i<categories.length; i++){
+	// var section = Ti.UI.createTableViewSection({
+		// headerTitle: categories[i],
+	// });
+	// sectionCollection.push(section);
+// };
+
+var section = Ti.UI.createTableViewSection({
+	headerTitle: categories[0]
+});
+
+var rowCollection1 = [];	
+
+for(var i=0; i<10; i++){
+	var row1 = Ti.UI.createTableViewRow({
+		title: data.data[i].title,
+		height: 50,
+		leftImage: "images/" + data.data[i].image,
+		desc: data.data[i].desc
+	});
+	row1.addEventListener("click", detail.detail);
+	rowCollection1.push(row1);
+};
+
+var rowCollection2 = [];
+
+for(var i=10; i<20; i++){
+	var row2 = Ti.UI.createTableViewRow({
+		title: data.data[i].title,
+		height: 50,
+		leftImage: "images/" + data.data[i].image,
+		desc: data.data[i].desc
+	});
+	row2.addEventListener("click", detail.detail);
+	rowCollection2.push(row2);
+};
+
+//sectionCollection.add(rowCollection1);
+table.setData(sectionCollection, rowCollection1, rowCollection2);
+
+win.add(table);
+win.open();

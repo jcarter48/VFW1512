@@ -1,3 +1,0 @@
-var cities = ["London", "Paris", "Egypt", "Bangkok", "Uganda"];
-
-console.log(foods[1]);
