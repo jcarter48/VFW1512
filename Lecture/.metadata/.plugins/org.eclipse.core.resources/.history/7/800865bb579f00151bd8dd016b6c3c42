@@ -1,0 +1,52 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Groceries"
+});
+
+var shoppingList = [
+	"Potato Chips", 
+	"Cheese", 
+	"Tomatoes",  
+	"Coca Cola",
+	"Pineapples",
+	"Coconut Rum"
+	];
+
+var shoppingListColors = [
+	"blue", 
+	"orange", 
+	"pink", 
+	"red", 
+	"yellow",
+	"brown"
+	];
+
+var list = [
+	{title: "Potato Chips", color: "blue", photo: ""},
+	{title: "Cheese", color: "orange", photo: ""},
+	{title: "Tomatoes", color: "pink", photo: ""},
+	{title: "Coca Cola", color: "red", photo: ""},
+	{title: "Pineapples", color: "yellow", photo: ""},
+	{title: "Coconut Rum", color: "brown", photo: ""},
+];
+
+var rowCollection = [];
+
+for(var i=0; i<shoppingList.length; i++){
+	var row = Ti.UI.createTableViewRow({
+	title: shoppingList[i],
+	height: 30,
+	backgroundColor: shoppingListColors[i],
+	//color: "#fff"
+	});
+	rowCollection.push(row);
+};
+
+table.setData(rowCollection);
+
+win.add(table);
+win.open();

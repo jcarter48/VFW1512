@@ -1,0 +1,35 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Groceries"
+});
+
+var shoppingList = [
+	"Potato Chips", 
+	"Cheese", 
+	"Tomatoes", 
+	"Soup", 
+	"Coca Cola",
+	"Pineapples",
+	"Coconut Rum"
+	];
+
+rowCollection = [];
+
+for(var i=0; i<shoppingList.length; i++){
+	var row = Ti.UI.createTableViewRow({
+	title: shoppingList[i],
+	height: 20,
+	backgroundColor: "#8171D0",
+	color: "#fff"
+	});
+	rowCollection.push(row);
+};
+
+table.setData(rowCollection);
+
+win.add(table);
+win.open();

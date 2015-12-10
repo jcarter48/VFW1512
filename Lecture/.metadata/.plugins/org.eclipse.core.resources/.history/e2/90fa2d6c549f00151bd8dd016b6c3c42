@@ -1,0 +1,19 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Groceries"
+});
+
+var row = Ti.UI.createTableViewRow({
+	title: "Potato Chips",
+	height: 20,
+	backgroundColor: "red"
+});
+
+table.setData([row]);
+
+win.add(table);
+win.open();
