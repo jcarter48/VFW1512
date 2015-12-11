@@ -1,7 +1,0 @@
-var characters = {
-	names: ["Bard", "Gnar", "Kindred", "Lulu", "Nami"],
-	portrait: ["Bard.png", "Gnar.png", "Kindred.png", "Lulu.png", "Nami.png"],
-	desc: [],
-	
-};
-

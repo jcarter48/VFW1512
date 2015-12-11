@@ -1,0 +1,32 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+
+var galleryFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory,"photos");
+var gallery = galleryFolder.getDirectoryListing();
+
+//dynamic sizing
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var itemCount = 8;
+var itemsInRow = 4;
+var margin = 10;
+var trueCanvasWidth = pWidth - (margin*(itemsInRow+1));
+var size = trueCanvasWidth/itemsInRow;
+//console.log(trueCanvasWidth);
+//console.log(pWidth);
+
+for(var i=0; i<gallery.length; i++){
+	console.log("photos/" + gallery[i]);
+	
+	var theImage = Ti.UI.createImageView({
+		image: "photos/" + gallery[i],
+		width:size,
+		//bottom: margin,
+		//left: margin
+	});
+	win.add(theImage);
+}
+
+ 
+win.open();
