@@ -24,25 +24,20 @@ var tableButton = Ti.UI.createView({
 	backgroundColor: "#ececec",
 	width: 200,
 	height: 75,
-	top: 200,
-	borderWidth: 5
+	top: 200
 });
 var tableButtonLabel = Ti.UI.createLabel({
-	text: "TableView",
-	font: {fontSize: 25}
+	text: "TableView"
 });
 var listButton = Ti.UI.createView({
 	backgroundColor: "#ececec",
 	width: 200,
 	height: 75,
-	bottom: 200,
-	borderWidth: 5	 
+	bottom: 200
 });
 var listButtonLabel = Ti.UI.createLabel({
-	text: "ListView",
-	font: {fontSize: 25}
+	text: "ListView"
 });
-
 //TABLE
 var table = Ti.UI.createTableView({
 	top: 20,
@@ -67,7 +62,7 @@ for(n in data.data){
 
 table.addEventListener("click", function(event){
 	detail.detail(event.source);
-	//console.log(this);
+	console.log(this);
 });
 
 //LIST
@@ -94,7 +89,7 @@ for(var i=0; i<titles.length; i++){
 	sectionCollection2.push(section);
 	list.addEventListener("itemclick", function(event){
 	detail.detail(event.source.sections[event.sectionIndex].items[event.itemIndex].properties);
-	//console.log(this);
+	console.log(this);
 });
 }
 

@@ -25,22 +25,20 @@ var tableButton = Ti.UI.createView({
 	width: 200,
 	height: 75,
 	top: 200,
-	borderWidth: 5
+	font: {fontSize: 25}
 });
 var tableButtonLabel = Ti.UI.createLabel({
-	text: "TableView",
-	font: {fontSize: 25}
+	text: "TableView"
 });
 var listButton = Ti.UI.createView({
 	backgroundColor: "#ececec",
 	width: 200,
 	height: 75,
-	bottom: 200,
-	borderWidth: 5	 
+	bottom: 200
 });
 var listButtonLabel = Ti.UI.createLabel({
 	text: "ListView",
-	font: {fontSize: 25}
+	font: {fontSize: 50}
 });
 
 //TABLE

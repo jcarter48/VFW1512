@@ -25,7 +25,7 @@ var tableButton = Ti.UI.createView({
 	width: 200,
 	height: 75,
 	top: 200,
-	borderWidth: 5
+	borderWidth: 1
 });
 var tableButtonLabel = Ti.UI.createLabel({
 	text: "TableView",
@@ -36,7 +36,7 @@ var listButton = Ti.UI.createView({
 	width: 200,
 	height: 75,
 	bottom: 200,
-	borderWidth: 5	 
+	borderWidth: 1 
 });
 var listButtonLabel = Ti.UI.createLabel({
 	text: "ListView",
