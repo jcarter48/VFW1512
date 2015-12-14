@@ -1,0 +1,22 @@
+var people = [
+	"Girls",
+	"Boys"
+];
+
+var names = [
+	"Jan",
+	"Kelly",
+	"Phil",
+	"Tim"
+];
+
+var people = {
+	"Girls": [
+		{name: "Jane"},
+		{name: "Kelly"},
+	],
+	"Boys": [
+		{name: "Jane"},
+		{name: "Kelly"},
+	]
+};

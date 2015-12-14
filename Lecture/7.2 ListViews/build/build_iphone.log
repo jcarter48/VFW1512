@@ -1,0 +1,176 @@
+
+12/12/2015, 10:36:17 AM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.0.GA
+  SDK Path                    = /Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews --target simulator --ios-version 9.2 --device-family universal --sim-type iphone --sim-version 9.2 --device-id 70F9D705-3328-4D94-89B1-D6E7473B1383 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 57805 --plugin-paths /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-1449934574826.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] Found iOS Simulator UDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
+[DEBUG]  Detecting modules in /Users/jacobcarter/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 4.0.3 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/facebook/4.0.3
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.map/2.3.0
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.3 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/facebook/4.0.3
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.2.2 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.2
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.2
+[INFO]   Building for iOS Simulator: iPhone 6
+[DEBUG]  UDID: 70F9D705-3328-4D94-89B1-D6E7473B1383
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.2
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-744a0f8c06e724e189b8ae3758ce89b71057de9b.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 2301.329 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/7.2 ListViews.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/7.2 ListViews.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/7_2_ListViews_Prefix.pch
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/7.2 ListViews.xcodeproj/xcshareddata/xcschemes/7_2_ListViews.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/debugger.plist
+[DEBUG]  Skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/KS_nav_views.png
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/Resources/batman.png => /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/batman.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/liveview.js => /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/app.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 310ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
+[TRACE]  [ioslib] Removing old log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/70F9D705-3328-4D94-89B1-D6E7473B1383/data/Containers/Data/Application/10AC508F-04D3-41B9-918B-C79515B81698/Documents/eecd2e92-1639-4ad1-9999-d6ed6e1d9d8a.log
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/jacobcarter/Library/Logs/CoreSimulator/70F9D705-3328-4D94-89B1-D6E7473B1383/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] iPhone 6 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] iPhone 6 Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 70F9D705-3328-4D94-89B1-D6E7473B1383 /Users/jacobcarter/Documents/VFW1512/Lecture/7.2 ListViews/build/iphone/build/Products/Debug-iphonesimulator/7.2 ListViews.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 70F9D705-3328-4D94-89B1-D6E7473B1383 com.carter.listviews
+[TRACE]  [ioslib] App launched
+[TRACE]  [7.2 ListViews] assertion failed: 14F1021 13C75: libxpc.dylib + 58018 [3E9AE163-9A95-35D3-BA2C-2E7144498580]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/70F9D705-3328-4D94-89B1-D6E7473B1383/data/Containers/Data/Application/9A408C1B-55D4-478D-869D-722BE493615C/Documents/eecd2e92-1639-4ad1-9999-d6ed6e1d9d8a.log

@@ -1,0 +1,23 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#ececec"
+});
+
+//SETTING UP TABLE VIEW
+var table = Ti.UI.createTableView({
+	headerTitle: "Super Heroes"
+});
+var section = Ti.UI.createTableViewSection({
+	headerTitle: "Villians"
+});
+var row = Ti.UI.createTableViewRow({
+	title: "The Joker"
+});
+
+//SETTING UP LIST VIEW
+var list;
+
+
+win.add(table);
+//win.add(list);
+
+win.open();

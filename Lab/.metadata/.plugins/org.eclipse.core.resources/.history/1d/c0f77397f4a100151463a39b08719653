@@ -1,0 +1,116 @@
+var data = require("data");
+var detail = require("detail");
+var table = require("table");
+var list = require("list");
+		
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var tableWin = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var listWin = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var nav =Ti.UI.iOS.createNavigationWindow({
+	window: win
+});
+
+//BUTTONS
+var tableButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	top: 200
+});
+
+var listButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	bottom: 200
+});
+
+//TABLE
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Favorite Champions",
+});
+var sectionCollection1 = [];
+for(n in data.data){
+	var section = Ti.UI.createTableViewSection({
+		headerTitle: n
+	});
+	for(var i = 0; i<data.data[n].length; i++){
+		var row = Ti.UI.createTableViewRow({
+			title: data.data[n][i].title,
+			leftImage: "images/" + data.data[n][i].image
+		});
+		section.add(row);
+	}
+	sectionCollection1.push(section);
+}
+//LIST
+var list = Ti.UI.createListView({
+	top: 20,
+	headerTitle: "Favorite Champions",
+	defaultItemTemplate: Titanium.UI.LIST_ITEM_TEMPLATE_SUBTITLE,
+});
+
+var listData = [
+	{properties: {
+		title: "Batman",
+		color: "blue",
+		height: 20,
+		acessoryType: 1,
+		subtitle: "The Dark Knight",
+		image: "batman.png"
+	}},
+	{properties: {
+		title: "Superman", 
+		color: "red", 
+		height: 40, 
+		accessoryType: 2, 
+		subtitle: "Son of Krypton",
+		image: "batman.png"
+	}},
+	{properties: {
+		title: "Wonder Woman",
+		 
+	height: 100, 
+		accessoryType: 3,
+		subtitle: "Amazonian Warrior",
+		image: "batman.png"
+	}}
+];
+
+var sectionCollection2 = [];
+for(n in data.data){
+	var section = Ti.UI.createListSection({
+		headerTitle: n
+	});
+	section.setItems(listData);
+	list.setSections([section]);
+	sectionCollection2.push(section);
+}
+
+
+
+table.setData(sectionCollection1);
+
+
+
+win.add(tableButton, listButton);
+tableButton.addEventListener("click", function(){
+	//tableWin.open();
+	nav.openWindow(tableWin);
+	tableWin.add(table);
+});
+listButton.addEventListener("click", function(){
+	//listWin.open();
+	nav.openWindow(listWin);
+});
+nav.open();

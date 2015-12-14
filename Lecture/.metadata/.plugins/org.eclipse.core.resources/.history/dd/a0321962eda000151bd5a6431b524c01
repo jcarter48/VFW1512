@@ -1,0 +1,15 @@
+var detailWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec"
+});
+
+var detailLabel = Ti.UI.createLabel({
+	text = 
+});
+
+detailWin.add(detailLabel);
+
+//TEMPORARY CLOSE UNTIL WE ADD NAVIGATION WINDOW
+detailWin.addEventListener("click", function(){
+	detailWin.close();
+});
+exports.detailWin = detailWin;

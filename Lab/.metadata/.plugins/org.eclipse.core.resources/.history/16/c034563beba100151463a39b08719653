@@ -1,0 +1,36 @@
+var data = require("data");
+var detail = require("detail");
+
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var nav =Ti.UI.iOS.createNavigationWindow({
+	window: win
+});
+
+var table = Ti.UI.createTableView({
+	top: 20,
+	headerTitle: "Favorite Champions",
+});
+
+var sectionCollection = [];
+
+for(n in data.data){
+	var section = Ti.UI.createTableViewSection({
+		headerTitle: n
+	});
+	for(var i = 0; i<data.data[n].length; i++){
+		var row = Ti.UI.createTableViewRow({
+			title: data.data[n][i].title,
+			leftImage: "images/" + data.data[n][i].image
+		});
+		section.add(row);
+	}
+	sectionCollection.push(section);
+}
+
+table.setData(sectionCollection);
+
+win.add(table);
+nav.open();

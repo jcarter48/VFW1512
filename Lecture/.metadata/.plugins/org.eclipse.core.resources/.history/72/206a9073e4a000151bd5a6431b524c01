@@ -1,0 +1,43 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#ececec"
+});
+
+//SETTING UP TABLE VIEW
+var table = Ti.UI.createTableView({
+	headerTitle: "Super Heroes",
+	top: 20
+});
+var section = Ti.UI.createTableViewSection({
+	headerTitle: "Villians"
+});
+var row = Ti.UI.createTableViewRow({
+	title: "The Joker",
+	hasDetail: true
+});
+
+section.add(row);
+table.setData([section]);
+
+//SETTING UP LIST VIEW
+var list = Ti.UI.createListView({
+	headerTitle: "Super Heroes",
+	top: 20
+});
+
+var listSection = Ti.UI.createListSection({
+	headerTitle: "Heroes",
+});
+
+var listData = [
+	{properties: {title: "Batman", color: "blue", accessoryType: 1}},
+	{properties: {title: "Superman", color: "red", accessoryType: 2}},
+	{properties: {title: "Wonder Woman", accessoryType: 3}}
+];
+
+listSection.setItems(listData);
+list.setSections([listSection]);
+
+//win.add(table);
+win.add(list);
+
+win.open();

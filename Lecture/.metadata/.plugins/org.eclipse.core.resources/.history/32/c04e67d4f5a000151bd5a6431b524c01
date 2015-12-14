@@ -1,0 +1,63 @@
+var win =Ti.UI.createWindow({
+	background: "#fff"
+});
+
+var table = Ti.UI.createTableView();
+
+//DATA SET #1
+var people = [
+	"Girls",
+	"Boys"
+];
+
+var names = [
+	"Jan",
+	"Kelly",
+	"Phil",
+	"Tim"
+];
+
+//DATA SET #2
+var people = {
+	"Girls": [
+		{name: "Jane"},
+		{name: "Kelly"},
+	],
+	"Boys": [
+		{name: "Jane"},
+		{name: "Kelly"},
+	]
+};
+
+//APPROACH #1
+for(var i=0; i<genders.length; i++){
+	var section = Ti.UI.createTableViewSection({
+		headerTitle: genders[i]
+	});
+}
+
+for(var i=0; i<names.length; i++){
+	var row = Ti.UI.createTableViewRow({
+		title: names[i]
+	});
+}
+
+//APPROACH #2
+var sectionCollection = [];
+
+// for(){
+	// var section = Ti.UI.createTableViewSection({
+		// headerTitle: genders[i]
+	// });
+	// for(){
+		// var row = Ti.UI.createTableViewRow({
+			// title: names[i]
+		// });
+		// section.add(row);
+	// }
+	// sectionCollection.push(section);
+// }
+
+table.setData(sectionCollection);
+win.add(table);
+win.open();

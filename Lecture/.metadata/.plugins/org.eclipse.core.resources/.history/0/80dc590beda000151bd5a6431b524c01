@@ -1,0 +1,11 @@
+var detailWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec"
+});
+
+var detailLabel = Ti.UI.createLabel({
+	text: "Placeholder Label"
+});
+
+detailWin.add(detailLabel);
+
+exports.detailWin = detailWin;

@@ -1,0 +1,36 @@
+-x
+objective-c
+-arch
+i386
+-std=c99
+-fmodules
+-gmodules
+-fmodules-cache-path=/Users/jacobcarter/Documents/VFW1512/Lecture/7.4 Code Refactoring/build/iphone/ModuleCache
+-fbuild-session-file=/Users/jacobcarter/Documents/VFW1512/Lecture/7.4 Code Refactoring/build/iphone/ModuleCache/Session.modulevalidation
+-fpascal-strings
+-O0
+-DDEPLOYTYPE=development
+-D__LOG__ID__=f733f997-0710-4d1d-9444-924729e7a294
+-DDEBUG=1
+-DTI_VERSION=5.1.0
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk
+-fasm-blocks
+-mios-simulator-version-min=7.1
+-g
+-fvisibility=hidden
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-iquote
+-iquote
+-I/Users/jacobcarter/Documents/VFW1512/Lecture/7.4 Code Refactoring/build/iphone/build/Products/Debug-iphonesimulator/include
+-I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/usr/include/libxml2
+-Iheaders
+-F/Users/jacobcarter/Documents/VFW1512/Lecture/7.4 Code Refactoring/build/iphone/build/Products/Debug-iphonesimulator
+-DDEBUG
+-fobjc-arc
+i386-apple-darwin14.5.0
+"4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)"
+SDK_PRODUCT_BUILD_VERSION=13C75
+13C75

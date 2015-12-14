@@ -1,0 +1,11 @@
+var win;
+var table;
+var section;
+var row;
+var list;
+
+
+win.add(table);
+//win.add(list);
+
+win.open();

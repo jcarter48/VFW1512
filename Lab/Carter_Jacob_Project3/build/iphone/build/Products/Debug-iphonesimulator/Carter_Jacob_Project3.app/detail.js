@@ -12,18 +12,10 @@ var detail = function(){
 	});
 	var detailLabel = Ti.UI.createLabel({
 		text: this.desc,
-		top: 160,
-		left: 15,
-		right: 15
+		top: 150,
+		left: 20,
+		right: 20
 	});
-	var detailBox = Ti.UI.createView({
-	backgroundColor: "#50ececec",
-	left: 20,
-	right: 20,
-	top: 360,
-	bottom: 110,
-});
-	detailBox.add(detailLabel);
 	detailWin.add(detailImage, detailLabel);
 		detailWin.addEventListener("click", function(){
 		detailWin.close();

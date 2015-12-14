@@ -1,0 +1,3 @@
+var detailWin = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});

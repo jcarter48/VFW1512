@@ -1,0 +1,18 @@
+var table = require("table");
+var list = require("list");
+		
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var tableButton = Ti.UI.createWindow({
+	backgroundColor: table.tableWin.backgroundColor,
+	width: 200,
+	height: 75
+});
+
+
+
+
+win.add(tableButton);
+win.open();

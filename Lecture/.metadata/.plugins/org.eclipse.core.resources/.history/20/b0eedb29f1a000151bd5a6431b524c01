@@ -1,0 +1,30 @@
+
+
+var getDetail = function(event){
+	console.log(event);
+	console.log(event.source.sections[event,sectionIndex].items[event.itemIndex].properties.title);
+	
+	var detailWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec"
+	});
+
+	var detailLabel = Ti.UI.createLabel({
+	text: event.source.title
+	});
+
+	var detailDesc = Ti.UI.createLabel({
+		text: event.source.desc,
+		bottom: 300
+	});
+	detailWin.add(detailLabel, detailDesc);
+
+	//TEMPORARY CLOSE UNTIL WE ADD NAVIGATION WINDOW
+	detailWin.addEventListener("click", function(){
+		detailWin.close();
+	});
+
+	detailWin.open();
+};
+
+exports.getDetail = getDetail;
+

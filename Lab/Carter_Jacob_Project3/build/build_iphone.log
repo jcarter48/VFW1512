@@ -1,5 +1,5 @@
 
-12/10/2015, 2:26:29 PM
+12/13/2015, 7:44:12 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,14 +21,14 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project3 --target simulator --ios-version 9.1 --device-family universal --sim-type iphone --sim-version 9.1 --device-id D9D530CF-B494-4C61-B9CA-4BE1A80BDF30 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50349 --plugin-paths /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-1449775586402.json --no-banner
+  /usr/local/bin/node /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project3 --target simulator --ios-version 9.2 --device-family universal --sim-type iphone --sim-version 9.2 --device-id 70F9D705-3328-4D94-89B1-D6E7473B1383 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 60179 --plugin-paths /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-1450053848774.json --no-banner
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
-[TRACE]  [ioslib] Found iOS Simulator UDID D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
+[TRACE]  [ioslib] Validating iOS Simulator UDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] Found iOS Simulator UDID 70F9D705-3328-4D94-89B1-D6E7473B1383
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
-[TRACE]  [ioslib]   iOS     = 9.1
-[TRACE]  [ioslib] Autoselected Xcode: 7.1.1
+[TRACE]  [ioslib]   UDID    = 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
 [DEBUG]  Detecting modules in /Users/jacobcarter/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
 [DEBUG]  Detected android module: facebook 4.0.3 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/facebook/4.0.3
@@ -55,11 +55,11 @@ Command
 [DEBUG]  Titanium SDK iOS directory: /Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
-[INFO]   Building using iOS SDK: 9.1
+[INFO]   Building using iOS SDK: 9.2
 [INFO]   Building for iOS Simulator: iPhone 6
-[DEBUG]  UDID: D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
+[DEBUG]  UDID: 70F9D705-3328-4D94-89B1-D6E7473B1383
 [DEBUG]  Simulator type: iphone
-[DEBUG]  Simulator version: 9.1
+[DEBUG]  Simulator version: 9.2
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
 [DEBUG]  Setting Xcode build OS to iphonesimulator
@@ -70,9 +70,9 @@ Command
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[TRACE]  offline build file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-eafbda5118434faf5e54852a4350a2cce0c217d7.json
+[TRACE]  offline build file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-cb77d222e64c15a94a078779ce1a7e127b65d04e.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 2313.513 sec ago
+[TRACE]  optimizing build, last build was 8128.017 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -175,23 +175,23 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 837ms
+[INFO]   Finished building the application in 1s 885ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
-[TRACE]  [ioslib]   iOS     = 9.1
-[TRACE]  [ioslib] Autoselected Xcode: 7.1.1
-[TRACE]  [ioslib] Removing old log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/D9D530CF-B494-4C61-B9CA-4BE1A80BDF30/data/Containers/Data/Application/396AC9C5-9FC6-4719-BFA8-4D760A31720D/Documents/a2f0b3d3-181c-4195-9999-b888be4fe79c.log
-[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/jacobcarter/Library/Logs/CoreSimulator/D9D530CF-B494-4C61-B9CA-4BE1A80BDF30/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
+[TRACE]  [ioslib]   UDID    = 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
+[TRACE]  [ioslib] Removing old log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/70F9D705-3328-4D94-89B1-D6E7473B1383/data/Containers/Data/Application/86BC889A-3857-4A7D-8FEC-3B44B3D910BD/Documents/a2f0b3d3-181c-4195-9999-b888be4fe79c.log
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/jacobcarter/Library/Logs/CoreSimulator/70F9D705-3328-4D94-89B1-D6E7473B1383/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 70F9D705-3328-4D94-89B1-D6E7473B1383
 [TRACE]  [ioslib] iPhone 6 Simulator was already shutdown
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID D9D530CF-B494-4C61-B9CA-4BE1A80BDF30
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 70F9D705-3328-4D94-89B1-D6E7473B1383
 [TRACE]  [ioslib] iPhone 6 Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
 [TRACE]  [ioslib] iPhone 6 Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install D9D530CF-B494-4C61-B9CA-4BE1A80BDF30 /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project3/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project3.app
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 70F9D705-3328-4D94-89B1-D6E7473B1383 /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project3/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project3.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch D9D530CF-B494-4C61-B9CA-4BE1A80BDF30 com.carter.project3
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 70F9D705-3328-4D94-89B1-D6E7473B1383 com.carter.project3
 [TRACE]  [ioslib] App launched
-[TRACE]  [Carter_Jacob_Project3] assertion failed: 14F1021 13B137: libxpc.dylib + 58126 [0F47719F-3076-3664-A64B-CEB6901B254D]: 0x7d
-[TRACE]  [ioslib] Found application log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/D9D530CF-B494-4C61-B9CA-4BE1A80BDF30/data/Containers/Data/Application/14BB32D3-A375-4DB3-9B1E-28D0F7969AE3/Documents/a2f0b3d3-181c-4195-9999-b888be4fe79c.log
+[TRACE]  [ioslib] Found application log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/70F9D705-3328-4D94-89B1-D6E7473B1383/data/Containers/Data/Application/E3E833A1-985D-4878-913C-F26B4BC4299D/Documents/a2f0b3d3-181c-4195-9999-b888be4fe79c.log
+[TRACE]  [Carter_Jacob_Project3] assertion failed: 14F1021 13C75: libxpc.dylib + 58018 [3E9AE163-9A95-35D3-BA2C-2E7144498580]: 0x7d

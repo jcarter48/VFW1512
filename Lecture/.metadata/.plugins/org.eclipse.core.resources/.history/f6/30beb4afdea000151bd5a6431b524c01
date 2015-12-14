@@ -1,0 +1,35 @@
+var table = require("table");
+var list = require("list");
+		
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var nav =Ti.UI.iOS.createNavigationWindow({
+	window = win
+});
+
+var tableButton = Ti.UI.createView({
+	backgroundColor: table.tableWin.backgroundColor,
+	width: 200,
+	height: 75
+});
+
+var listButton = Ti.UI.createView({
+	backgroundColor: list.listWin.backgroundColor,
+	width: 200,
+	height: 75,
+	bottom: 200
+});
+
+
+
+win.add(tableButton, listButton);
+tableButton.addEventListener("click", function(){
+	table.tableWin.open();
+});
+listButton.addEventListener("click", function(){
+	list.listWin.open();
+});
+
+win.open();
