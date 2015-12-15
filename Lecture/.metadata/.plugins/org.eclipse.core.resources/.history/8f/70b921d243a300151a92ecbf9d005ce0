@@ -1,0 +1,35 @@
+var win = Ti.UI.createWindow({backgroundColor: "#fff"});
+
+var slider = Titanium.UI.createSlider({
+    top: 50,
+    min: 0,
+    max: 100,
+    width: '100%',
+    value: 50
+    });
+
+var label = Ti.UI.createLabel({
+    text: slider.value,
+    width: '100%',
+    top: 200,
+    left: 0,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+    });
+    
+var view = Ti.UI.createView({
+	backgroundColor: "red",
+	width: 100,
+	height: 100,
+	top: 300
+});
+
+slider.addEventListener('change', function(e) {
+    label.text = String.format("%3.0f", e.value);
+    //label.font = {fontSize: String.format("%3.0f", e.value)};
+    view.width = String.format("%3.0f", e.value*2);
+    view.height = String.format("%3.0f", e.value*2);
+    view.borderRadius = String.format("%3.0f", e.value);
+});
+
+win.add(slider, label, view);
+win.open();

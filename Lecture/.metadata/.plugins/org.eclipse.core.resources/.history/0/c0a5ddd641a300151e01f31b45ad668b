@@ -1,0 +1,36 @@
+var win = Ti.UI.createWindow({
+  backgroundColor: 'white'
+});
+
+var basicSwitch = Ti.UI.createSwitch({
+  value:true,
+  top: 300 
+});
+
+var sizeSwitch = Ti.UI.createSwitch({
+  value:true,
+  top: 350
+});
+var label = Ti.UI.createLabel({
+	text: "Sample Text",
+	color: "#000",
+	font: {
+		fontSize: "20",
+		fontWeight: "bold"
+	},
+	top: 200
+});
+
+basicSwitch.addEventListener('change',function(e){
+  Ti.API.info('Switch value: ' + basicSwitch.value);
+  if(!basicSwitch.value){
+  	win.backgroundColor = "#000";
+  }else{
+  	win.backgroundColor = "fff";
+  }
+});
+
+win.open();
+
+// print initial value
+Ti.API.info('Switch value: ' + basicSwitch.value);

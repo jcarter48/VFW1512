@@ -1,0 +1,18 @@
+var win = Ti.UI.createWindow({
+  backgroundColor: 'blue'
+});
+
+var textField = Ti.UI.createTextField({
+  borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+  color: '#336699',
+  width: 250, 
+  height: 60,
+  hintText: "Type your name here."
+});
+
+textField.addEventListener("change", function(){
+	console.log(textField.value);
+});
+
+win.add(textField);
+win.open();

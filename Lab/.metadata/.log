@@ -23854,3 +23854,53 @@ Caused by: java.io.IOException: error=7, Argument list too long
 
 !ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 09:35:33.827
 !MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+!SESSION 2015-12-15 10:59:35.150 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jacobcarter/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jacobcarter/Documents/VFW1512/Lab -keyring /Users/jacobcarter/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-15 10:59:37.344
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 10:59:44.290
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 10:59:44.294
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.update.core 4 0 2015-12-15 11:00:18.601
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  undefined:0
+
+^
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/appcelerator/lib/util.js:574:25)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+
+!ENTRY com.appcelerator.titanium.update.core 4 0 2015-12-15 11:00:19.905
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  undefined:0
+
+
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/appcelerator/lib/util.js:574:25)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 11:03:52.732
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 11:03:52.734
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 11:10:15.228
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 11:10:15.229
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules

@@ -1,0 +1,22 @@
+var win = Ti.UI.createWindow({
+  backgroundColor: 'white'
+});
+
+var basicSwitch = Ti.UI.createSwitch({
+  value:true // mandatory property for iOS 
+});
+win.add(basicSwitch);
+
+basicSwitch.addEventListener('change',function(e){
+  Ti.API.info('Switch value: ' + basicSwitch.value);
+  if(basicSwift){
+  	win.backgroundColor = "#000";
+  }else{
+  	win.backgroundColor = "fff";
+  }
+});
+
+win.open();
+
+// print initial value
+Ti.API.info('Switch value: ' + basicSwitch.value);
