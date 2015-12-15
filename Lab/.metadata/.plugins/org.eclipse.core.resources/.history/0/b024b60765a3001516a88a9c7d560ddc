@@ -2,7 +2,7 @@
 var openDetail = function(source){
 	//detail win
 	var detailWin = Ti.UI.createWindow({
-		backgroundColor: "#ececec",
+		backgroundColor: "#888888",
 		title: "Additional Info"
 	});
 	//champion name

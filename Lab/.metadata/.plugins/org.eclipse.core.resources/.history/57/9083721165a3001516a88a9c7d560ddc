@@ -2,14 +2,14 @@
 var openDetail = function(source){
 	//detail win
 	var detailWin = Ti.UI.createWindow({
-		backgroundColor: "#ececec",
+		backgroundColor: "#000000",
 		title: "Additional Info"
 	});
 	//champion name
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
 		top: 40,
-		color: "#000000",
+		color: "#ffffff",
 		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
 	});
 	//champion picture
@@ -31,7 +31,7 @@ var openDetail = function(source){
 		top: 200,
 		left: 20,
 		right: 20,
-		color: "#000000",
+		color: "#ffffff",
 		font: {fontSize: 18, fontFamily: "AmericanTypewriter"}
 	});
 	

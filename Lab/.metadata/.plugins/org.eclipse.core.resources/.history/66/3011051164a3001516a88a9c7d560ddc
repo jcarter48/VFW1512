@@ -1,5 +1,5 @@
 //tableView Data
-var tableData = {
+var data = {
 	"Top 10 Favorites": [
 	{title: "Bard", image: "Bard.png", desc: "Bard travels through realms beyond the imagination of mortal beings. Some of Valoran's greatest scholars have spent their lives trying to understand the mysteries he embodies. This enigmatic spirit has been given many names throughout the history of Valoran, but titles such as Cosmic Vagabond and Great Caretaker only capture a fleeting aspect of his true purpose. When the unknowable structure of the universe is threatened, Bard steers all existence away from utter annihilation."},
 	{title: "Brand", image: "Brand.png", desc: "In a faraway place known as Lokfar there was a seafaring marauder called Kegan Rodhe. As was his people's way, Kegan sailed far and wide with his fellows, stealing treasures from those unlucky enough to catch their attention. To some, he was a monster; to others, just a man. One night, as they sailed through the arctic waters, strange lights danced over the frozen wastes. There was something hypnotic about them; it was something that drew them to it like moths to a flame. Trekking across the frozen waste, they came to a cave covered in ancient runes. The meaning of the runes long lost to them, Kegan led the way inside. There, inside a perfect cage of ice floated a dancing column of flame. There was no way such a thing should be burning, especially not in this place. However, its movement was as hypnotic as a siren's song, captivating and seductive. While the others stayed back, Kegan could not help but approach it while holding out his hand..."},
@@ -94,5 +94,5 @@ var listData = {
 ]};
 
 //Exporting
-exports.tableData = tableData;
+exports.data = data;
 exports.listData = listData;

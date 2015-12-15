@@ -1,5 +1,5 @@
 //function for detail window
-var openDetail = function(source){
+var detail = function(source){
 	//detail win
 	var detailWin = Ti.UI.createWindow({
 		backgroundColor: "#ececec",
@@ -9,7 +9,7 @@ var openDetail = function(source){
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
 		top: 40,
-		color: "#000000",
+		color: "#000000	",
 		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
 	});
 	//champion picture
@@ -42,5 +42,5 @@ var openDetail = function(source){
 	nav.openWindow(detailWin);
 };
 
-//Exporting
-exports.openDetail = openDetail;
+//exporting
+exports.detail = detail;

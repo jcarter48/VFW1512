@@ -36,12 +36,11 @@ for(n in data.tableData){
 
 //Eventlistener to open detailWin
 table.addEventListener("click", function(event){
-	detail.openDetail(event.source);
+	detail.detail(event.source);
 });
 //setData to array
 table.setData(sectionCollection);
-//adding table to tableWin
-tableWin.add(table);
 
+tableWin.add(table);
 //exporting
 exports.tableWin = tableWin;

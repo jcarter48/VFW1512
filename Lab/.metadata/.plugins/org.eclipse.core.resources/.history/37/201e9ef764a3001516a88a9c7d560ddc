@@ -9,7 +9,7 @@ var openDetail = function(source){
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
 		top: 40,
-		color: "#000000",
+		color: "#000000	",
 		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
 	});
 	//champion picture

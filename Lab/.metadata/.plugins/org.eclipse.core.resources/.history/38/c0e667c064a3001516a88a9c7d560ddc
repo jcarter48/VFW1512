@@ -50,6 +50,5 @@ tableButton.addEventListener("click", function(){
 listButton.addEventListener("click", function(){
 	nav.openWindow(list.listWin);
 });
-
 //Opening nav; replaces win.open();
 nav.open();

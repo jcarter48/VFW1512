@@ -15,9 +15,9 @@ var nav =Ti.UI.iOS.createNavigationWindow({
 //Buttons & their Labels
 var tableButton = Ti.UI.createView({
 	backgroundColor: "#ececec",
-	width: 200,
+	width: 300,
 	height: 75,
-	top: 200,
+	top: 300,
 	borderWidth: 5
 });
 var tableButtonLabel = Ti.UI.createLabel({
@@ -26,9 +26,9 @@ var tableButtonLabel = Ti.UI.createLabel({
 });
 var listButton = Ti.UI.createView({
 	backgroundColor: "#ececec",
-	width: 200,
+	width: 300,
 	height: 75,
-	bottom: 200,
+	bottom: 300,
 	borderWidth: 5	 
 });
 var listButtonLabel = Ti.UI.createLabel({

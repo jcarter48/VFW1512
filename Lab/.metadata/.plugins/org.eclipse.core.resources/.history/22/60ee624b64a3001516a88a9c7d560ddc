@@ -17,15 +17,15 @@ var table = Ti.UI.createTableView({
 //array for table data
 var sectionCollection = [];
 //for loop for table rows and data
-for(n in data.tableData){
+for(n in data.data){
 	var section = Ti.UI.createTableViewSection({
 		headerTitle: n
 	});
-	for(var i = 0; i<data.tableData[n].length; i++){
+	for(var i = 0; i<data.data[n].length; i++){
 		var row = Ti.UI.createTableViewRow({
-			title: data.tableData[n][i].title,
-			leftImage: "images/" + data.tableData[n][i].image,
-			desc: data.tableData[n][i].desc,
+			title: data.data[n][i].title,
+			leftImage: "images/" + data.data[n][i].image,
+			desc: data.data[n][i].desc,
 			hasChild: true
 		});
 		section.add(row);
@@ -36,12 +36,11 @@ for(n in data.tableData){
 
 //Eventlistener to open detailWin
 table.addEventListener("click", function(event){
-	detail.openDetail(event.source);
+	detail.detail(event.source);
 });
 //setData to array
 table.setData(sectionCollection);
-//adding table to tableWin
-tableWin.add(table);
 
+tableWin.add(table);
 //exporting
 exports.tableWin = tableWin;

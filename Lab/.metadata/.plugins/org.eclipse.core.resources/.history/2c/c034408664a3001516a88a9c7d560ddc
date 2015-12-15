@@ -40,8 +40,7 @@ table.addEventListener("click", function(event){
 });
 //setData to array
 table.setData(sectionCollection);
-//adding table to tableWin
-tableWin.add(table);
 
+tableWin.add(table);
 //exporting
 exports.tableWin = tableWin;

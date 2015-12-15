@@ -35,8 +35,7 @@ list.addEventListener("itemclick", function(event){
 });
 //setSections to array
 list.setSections(sectionCollection);
-//adding list to listWin
-listWin.add(list);
 
-//Exporting
+listWin.add(list);
+//exporting
 exports.listWin = listWin;
