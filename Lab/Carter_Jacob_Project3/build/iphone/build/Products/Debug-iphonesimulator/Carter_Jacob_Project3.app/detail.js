@@ -9,16 +9,21 @@ var detail = function(source){
 		width: 100,
 		height: 100,
 		top: 90,
-		image: source.leftImage
+		//image: source.leftImage
 		// image: if(TiUITableView;) {
     		// source.leftImage;
 		// }else{ 
     		// source.image;
-		// }
+		// };
 		//^leftImage gets tableViews images, image gets listViews images.
 		//how can i get them both to work?
 		//cant figure it out will wait to ask oscar
 	});
+	if(source.leftImage) {
+		detailImage.image = source.leftImage;
+		}else{ 
+    	detailImage.image = source.image;
+		};
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
 		top: 40,

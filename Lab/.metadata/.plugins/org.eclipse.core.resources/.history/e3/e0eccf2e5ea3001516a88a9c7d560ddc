@@ -94,11 +94,11 @@ for(n in data.listData){
 		section.setItems(data.listData[n]);
 	};
 	sectionCollection2.push(section);
-	list.addEventListener("itemclick", function(event){
-	detail.detail(event.source.sections[event.sectionIndex].items[event.itemIndex].properties);
-	//console.log(this);
-	//opening two nav detail windows?
-});
+	// list.addEventListener("itemclick", function(event){
+	// detail.detail(event.source.sections[event.sectionIndex].items[event.itemIndex].properties);
+	// //console.log(this);
+	// //opening two nav detail windows?
+// });
 }
 
 list.setSections(sectionCollection2);

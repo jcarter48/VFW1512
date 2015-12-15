@@ -43,7 +43,8 @@ var detail = function(source){
 	detailWin.addEventListener("click", function(){
 		detailWin.close();
 	});
-	nav.openWindow(detailWin);
+	//nav.openWindow(detailWin);
+	detailWin.open();
 	//navigation window not going back to tableview/listview
 	//tried everything i can think of just going to wait to ask oscar
 	//detailWin.open();

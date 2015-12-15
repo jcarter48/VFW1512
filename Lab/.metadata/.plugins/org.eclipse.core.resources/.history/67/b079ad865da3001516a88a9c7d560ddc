@@ -9,7 +9,7 @@ var detail = function(source){
 		width: 100,
 		height: 100,
 		top: 90,
-		//image: source.leftImage
+		image: source.leftImage
 		// image: if(TiUITableView;) {
     		// source.leftImage;
 		// }else{ 
@@ -19,11 +19,11 @@ var detail = function(source){
 		//how can i get them both to work?
 		//cant figure it out will wait to ask oscar
 	});
-	if(source.leftImage) {
-		detailImage.image = source.leftImage;
-		}else{ 
-    	detailImage.image = source.image;
-		};
+	// image: if(source.leftImage) {
+    		// source.leftImage;
+		// }else{ 
+    		// source.image;
+		// };
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
 		top: 40,

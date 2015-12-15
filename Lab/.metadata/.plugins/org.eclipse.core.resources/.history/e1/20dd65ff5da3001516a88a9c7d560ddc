@@ -101,7 +101,7 @@ for(n in data.listData){
 });
 }
 
-list.setSections(sectionCollection2);
+list.sections = sectionCollection2;
 table.setData(sectionCollection1);
 
 tableButton.add(tableButtonLabel);

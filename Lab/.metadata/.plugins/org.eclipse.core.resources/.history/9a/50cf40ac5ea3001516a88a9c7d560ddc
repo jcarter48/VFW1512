@@ -115,7 +115,8 @@ tableButton.addEventListener("click", function(){
 });
 listButton.addEventListener("click", function(){
 	//listWin.open();
-	nav.openWindow(listWin);
+	//nav.openWindow(listWin);
+	detail.detail();
 	listWin.add(list);
 });
 nav.open();
