@@ -14,11 +14,16 @@ var detail = function(source){
     		// source.leftImage;
 		// }else{ 
     		// source.image;
-		// }
+		// };
 		//^leftImage gets tableViews images, image gets listViews images.
 		//how can i get them both to work?
 		//cant figure it out will wait to ask oscar
 	});
+	// image: if(source.leftImage) {
+    		// source.leftImage;
+		// }else{ 
+    		// source.image;
+		// };
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
 		top: 40,

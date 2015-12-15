@@ -1,0 +1,37 @@
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+var bb1 = Titanium.UI.createButtonBar({
+    labels:['One', 'Two', 'Three'],
+    backgroundColor:'#336699',
+    top:50,
+    style:Titanium.UI.iPhone.SystemButtonStyle.BAR,
+    height:25,
+    width:200
+});
+
+var view = Titanium.UI.createView({
+  backgroundColor:'red'
+});
+var animation = Titanium.UI.createAnimation();
+animation.backgroundColor = 'black';
+animation.duration = 3000;
+animation.repeat = 1;
+animation.height = 300;
+animation.width = 300;
+animation.opacity = .8;
+animation.setRepeat(1);
+var animationHandler = function() {
+  animation.removeEventListener('complete',animationHandler);
+  animation.backgroundColor = 'orange';
+  animation.setRepeat(1);
+  animation.setBottom(0);
+  animation.setLeft(3000);
+  view.animate(animation);
+};
+animation.addEventListener('complete',animationHandler);
+view.animate(animation);
+
+win.add(view);
+win.open();
