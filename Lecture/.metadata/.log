@@ -6793,3 +6793,19 @@ java.lang.IllegalArgumentException: Source type cannot be null or empty
 	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
 	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SESSION 2015-12-15 09:53:09.418 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/jacobcarter/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jacobcarter/Documents/VFW1512/Lecture -keyring /Users/jacobcarter/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-12-15 09:53:12.206
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 09:53:21.096
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-15 09:53:21.102
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
