@@ -1,0 +1,38 @@
+var detail = function(source){
+	var detailWin = Ti.UI.createWindow({
+		backgroundColor: "#ececec",
+		title: "Additional Info"
+	});
+	var detailImage = Ti.UI.createImageView({
+		width: 100,
+		height: 100,
+		top: 90,
+	});
+	if(source.leftImage) {
+		detailImage.image = source.leftImage;
+		}else{ 
+    	detailImage.image = source.image;
+		};
+	var detailLabel = Ti.UI.createLabel({
+		text: source.title,
+		top: 40,
+		color: "#000000	",
+		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
+	});
+	var detailDesc = Ti.UI.createLabel({
+		text: source.desc,
+		top: 200,
+		left: 20,
+		right: 20,
+		color: "#000000",
+		font: {fontSize: 18, fontFamily: "AmericanTypewriter"}
+	});
+	detailWin.add(detailImage, detailLabel, detailDesc);
+	
+	detailWin.addEventListener("click", function(){
+		detailWin.close();
+	});
+	nav.openWindow(detailWin);
+};
+
+exports.detail = detail;

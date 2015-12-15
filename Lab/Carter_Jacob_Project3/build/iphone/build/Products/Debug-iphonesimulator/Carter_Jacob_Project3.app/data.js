@@ -1,3 +1,4 @@
+//tableView Data
 var data = {
 	"Top 10 Favorites": [
 	{title: "Bard", image: "Bard.png", desc: "Bard travels through realms beyond the imagination of mortal beings. Some of Valoran's greatest scholars have spent their lives trying to understand the mysteries he embodies. This enigmatic spirit has been given many names throughout the history of Valoran, but titles such as Cosmic Vagabond and Great Caretaker only capture a fleeting aspect of his true purpose. When the unknowable structure of the universe is threatened, Bard steers all existence away from utter annihilation."},
@@ -25,6 +26,7 @@ var data = {
 	]
 };
 
+//listView Data
 var listData = {
 "Top 10 Favorites": [
 {properties:
@@ -91,5 +93,6 @@ var listData = {
 },
 ]};
 
+//Exporting
 exports.data = data;
 exports.listData = listData;
