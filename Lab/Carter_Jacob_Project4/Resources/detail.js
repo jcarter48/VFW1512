@@ -1,21 +1,31 @@
 var openDetail = function(source){
 	var detailWin = Ti.UI.createWindow({
-		backgroundColor: "#ececec",
+		backgroundImage: "background.jpg",
 		title: "Big Picture"
+	});
+	var detailButton = Ti.UI.createView({
+		backgroundColor: "#000000",
+		width: 330,
+		height: 75,
+		top: 30,
+		borderWidth: 5,
+		borderColor: "#ffffff"
 	});
 	var detailLabel = Ti.UI.createLabel({
 		text: source.title,
-		top: 40,
-		color: "#000000",
-		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
+		color: "#ffffff",
+		font: {fontSize: 35, fontFamily: "AmericanTypewriter"}
 	});
 	var detailImage = Ti.UI.createImageView({
 		width: 330,
 		height: 260,
-		top: 90,
-		image: source.image
+		top: 120,
+		image: source.image,
+		borderWidth: 5,
+		borderColor: "#ffffff"
 	});
-	detailWin.add(detailLabel, detailImage);
+	detailButton.add(detailLabel);
+	detailWin.add(detailButton, detailImage);
 	nav.openWindow(detailWin);
 };
 

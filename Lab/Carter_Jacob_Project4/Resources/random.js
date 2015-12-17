@@ -12,26 +12,29 @@ function randomizer(min, max) {
 }
 
 var randomWin = Ti.UI.createWindow({
-	backgroundColor: "#ececec",
+	backgroundImage: "background.jpg",
 	title: "Random Player!"
 });
 var randomButton = Ti.UI.createView({
-	backgroundColor: "#ececec",
-	width: 200,
+	backgroundColor: "#000000",
+	width: 330,
 	height: 75,
 	top: 30,
-	borderWidth: 5
+	borderWidth: 5,
+	borderColor: "#ffffff"
 });
 var randomLabel = Ti.UI.createLabel({
 	text: "Shuffle",
-	color: "#000000",
-	font: {fontSize: 25}
+	color: "#ffffff",
+	font: {fontSize: 35, fontFamily: "AmericanTypewriter"}
 });
 var randomImage = Ti.UI.createImageView({
 	width: 330,
 	height: 260,
 	top: 120,
-	image: "images/" + gallery[0]
+	image: "images/" + gallery[0],
+	borderWidth: 5,
+	borderColor: "#ffffff"
 });
 
 randomButton.addEventListener("singletap", function(){

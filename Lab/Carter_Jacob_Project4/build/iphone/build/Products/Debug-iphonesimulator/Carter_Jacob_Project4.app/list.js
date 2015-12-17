@@ -1,4 +1,5 @@
 var data = require("data");
+var detail = require("detail");
 
 var listWin = Ti.UI.createWindow({
 	backgroundColor: "#fff",

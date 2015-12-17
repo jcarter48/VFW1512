@@ -4,7 +4,7 @@ var bar = require("bar");
 
 //window	
 var win = Ti.UI.createWindow({
-	backgroundColor: "#fff"
+	backgroundImage: "background.jpg"
 });
 
 //navigation window
@@ -14,7 +14,7 @@ var nav =Ti.UI.iOS.createNavigationWindow({
 
 //Buttons & their Labels
 var randomButton = Ti.UI.createView({
-	backgroundColor: "#ececec",
+	backgroundColor: "#ffffff",
 	width: 200,
 	height: 75,
 	top: 150,
@@ -22,21 +22,21 @@ var randomButton = Ti.UI.createView({
 });
 var randomButtonLabel = Ti.UI.createLabel({
 	text: "Random Image",
-	font: {fontSize: 25}
+	font: {fontSize: 25, fontFamily: "AmericanTypewriter"}
 });
 var listButton = Ti.UI.createView({
-	backgroundColor: "#ececec",
+	backgroundColor: "#ffffff",
 	width: 200,
 	height: 75,
 	top: 250,
-	borderWidth: 5	 
+	borderWidth: 5 
 });
 var listButtonLabel = Ti.UI.createLabel({
 	text: "ListView",
-	font: {fontSize: 25}
+	font: {fontSize: 25, fontFamily: "AmericanTypewriter"}
 });
 var barButton = Ti.UI.createView({
-	backgroundColor: "#ececec",
+	backgroundColor: "#ffffff",
 	width: 200,
 	height: 75,
 	top: 350,
@@ -44,7 +44,7 @@ var barButton = Ti.UI.createView({
 });
 var barButtonLabel = Ti.UI.createLabel({
 	text: "TabbedBar",
-	font: {fontSize: 25}
+	font: {fontSize: 25, fontFamily: "AmericanTypewriter"}
 });
 
 randomButton.add(randomButtonLabel);
