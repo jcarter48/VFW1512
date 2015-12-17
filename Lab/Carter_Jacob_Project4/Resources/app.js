@@ -1,5 +1,6 @@
 var random = require("random");
 var list = require("list");
+var bar = require("bar");
 
 //window	
 var win = Ti.UI.createWindow({
@@ -34,27 +35,30 @@ var listButtonLabel = Ti.UI.createLabel({
 	text: "ListView",
 	font: {fontSize: 25}
 });
-var researchButton = Ti.UI.createView({
+var barButton = Ti.UI.createView({
 	backgroundColor: "#ececec",
 	width: 200,
 	height: 75,
 	top: 350,
 	borderWidth: 5	 
 });
-var researchButtonLabel = Ti.UI.createLabel({
-	text: "Research",
+var barButtonLabel = Ti.UI.createLabel({
+	text: "TabbedBar",
 	font: {fontSize: 25}
 });
 
 randomButton.add(randomButtonLabel);
 listButton.add(listButtonLabel);
-researchButton.add(researchButtonLabel);
+barButton.add(barButtonLabel);
 
-win.add(randomButton, listButton, researchButton);
+win.add(randomButton, listButton, barButton);
 randomButton.addEventListener("click", function(){
 	nav.openWindow(random.randomWin);
 });
 listButton.addEventListener("click", function(){
 	nav.openWindow(list.listWin);
+});
+barButton.addEventListener("click", function(){
+	nav.openWindow(bar.tabbedWin);
 });
 nav.open();

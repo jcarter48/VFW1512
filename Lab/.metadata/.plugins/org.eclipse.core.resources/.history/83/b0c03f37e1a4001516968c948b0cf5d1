@@ -1,0 +1,47 @@
+var data = require("data");
+var galleryFolder = Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory,"images");
+var gallery = galleryFolder.getDirectoryListing();
+//randomizer
+//use image folder not data array
+var min = 0;
+var max = 19;
+function randomizer(min, max) {
+    
+    var randomNum = Math.round(Math.random() *(max-min) +Number(min));
+    
+    return randomNum;
+
+}
+var ranNum = randomizer(min, max);
+console.log(ranNum);
+var randomWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec",
+	title: "Additional Info"
+});
+var randomButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	top: 30,
+	borderWidth: 5
+});
+var randomLabel = Ti.UI.createLabel({
+	text: "Shuffle",
+	color: "#000000",
+	font: {fontSize: 25}
+});
+var randomImage = Ti.UI.createImageView({
+	width: 330,
+	height: 260,
+	top: 90,
+	image: "images/" + gallery[0]
+});
+
+randomButton.addEventListener("click", function(){
+	randomImage.Image = "images/" + ranNum;
+});
+
+randomButton.add(randomLabel);
+randomWin.add(randomButton, randomImage);
+
+exports.randomWin = randomWin;

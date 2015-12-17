@@ -23,7 +23,7 @@ for(n in data.tableData){
 	});
 	for(var i = 0; i<data.tableData[n].length; i++){
 		var row = Ti.UI.createTableViewRow({
-			title: data.tableData[n][i].title,
+			title: n,
 			leftImage: "images/" + data.tableData[n][i].image,
 			desc: data.tableData[n][i].desc,
 			hasChild: true

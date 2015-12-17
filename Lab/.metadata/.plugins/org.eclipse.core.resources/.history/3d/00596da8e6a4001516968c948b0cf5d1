@@ -1,0 +1,22 @@
+var data = require("data");
+
+var tabbedWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec",
+	title: "Hi"
+});
+
+var tabbedBar = Titanium.UI.iOS.createTabbedBar({
+    labels:['TSM', 'C9', 'IMT', 'NRG'],
+    backgroundColor:'#336699',
+    top:50,
+    style:Titanium.UI.iPhone.SystemButtonStyle.BAR,
+    height:25,
+    width:200
+});
+
+var tsmImage = Ti.UI.createImageView({
+		image: data.listData.team[0].properties.image
+	});
+tabbedWin.add(tabbedBar, tsmImage);
+
+exports.tabbedWin = tabbedWin;

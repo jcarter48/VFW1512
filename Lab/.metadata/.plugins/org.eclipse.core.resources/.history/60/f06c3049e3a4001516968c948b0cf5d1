@@ -1,0 +1,60 @@
+var random = require("random");
+var list = require("list");
+
+//window	
+var win = Ti.UI.createWindow({
+	backgroundColor: "#fff"
+});
+
+//navigation window
+var nav =Ti.UI.iOS.createNavigationWindow({
+	window: win
+});
+
+//Buttons & their Labels
+var randomButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	top: 150,
+	borderWidth: 5
+});
+var randomButtonLabel = Ti.UI.createLabel({
+	text: "Random Image",
+	font: {fontSize: 25}
+});
+var listButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	top: 250,
+	borderWidth: 5	 
+});
+var listButtonLabel = Ti.UI.createLabel({
+	text: "ListView",
+	font: {fontSize: 25}
+});
+var researchButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	top: 350,
+	borderWidth: 5	 
+});
+var researchButtonLabel = Ti.UI.createLabel({
+	text: "TabbedBar",
+	font: {fontSize: 25}
+});
+
+randomButton.add(randomButtonLabel);
+listButton.add(listButtonLabel);
+researchButton.add(researchButtonLabel);
+
+win.add(randomButton, listButton, researchButton);
+randomButton.addEventListener("click", function(){
+	nav.openWindow(random.randomWin);
+});
+listButton.addEventListener("click", function(){
+	nav.openWindow(list.listWin);
+});
+nav.open();

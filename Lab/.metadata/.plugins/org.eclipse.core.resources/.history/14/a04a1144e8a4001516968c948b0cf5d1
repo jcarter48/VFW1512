@@ -1,0 +1,37 @@
+var data = require("data");
+
+var tabbedWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec",
+	title: "Hi"
+});
+
+var tabbedBar = Titanium.UI.iOS.createTabbedBar({
+    labels:['TSM', 'C9', 'IMT', 'NRG'],
+    backgroundColor:'#336699',
+    top:50,
+    style:Titanium.UI.iPhone.SystemButtonStyle.BAR,
+    height:25,
+    width:200
+});
+//creating tableView
+var table = Ti.UI.createTableView({
+	top: 40,
+});
+var sectionCollection = [];
+for(n in data.tableData){
+	var section = Ti.UI.createTableViewSection({
+		headerTitle: n
+	});
+	for(var i = 0; i<data.tableData[n].length; i++){
+		var row = Ti.UI.createTableViewRow({
+			title: data.listData[n][i].title,
+			leftImage: "images/" + data.listData[n][i].image
+		});
+		section.add(row);
+	}
+	sectionCollection.push(section);
+}
+
+tabbedWin.add(table, tabbedBar);
+
+exports.tabbedWin = tabbedWin;

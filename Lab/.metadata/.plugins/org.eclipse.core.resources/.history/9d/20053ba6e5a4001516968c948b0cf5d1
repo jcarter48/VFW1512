@@ -1,0 +1,19 @@
+var data = require("data");
+
+var tabbedWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec",
+	title: "Hi"
+});
+
+var tabbedBar = Titanium.UI.iOS.createTabbedBar({
+    labels:['Name', 'Team', 'Role'],
+    backgroundColor:'#336699',
+    top:50,
+    style:Titanium.UI.iPhone.SystemButtonStyle.BAR,
+    height:25,
+    width:200
+});
+
+tabbedWin.add(tabbedBar, tabbedTitle);
+
+exports.tabbedWin = tabbedWin;
