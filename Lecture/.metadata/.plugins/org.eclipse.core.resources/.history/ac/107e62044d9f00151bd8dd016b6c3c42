@@ -1,8 +1,0 @@
-var win = Ti.UI.createWindow({
-	backgroundColor: "#fff",
-});
-
-var table = Ti.UI.createTableView();
-
-win.add(table);
-win.open();

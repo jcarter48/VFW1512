@@ -1,0 +1,70 @@
+var listData = {
+	"Team Solo Mid": [
+	{properties: 
+		{title:"Hauntzer", image:"Hauntzer.jpg"}
+	},
+	{properties: 
+		{title:"Svenskeren", image:"Svenskeren.jpg"}
+	},
+	{properties: 
+		{title:"Bjergsen", image:"Bjergsen.jpg"}
+	},
+	{properties: 
+		{title:"Doublelift", image:"Doublelift.jpg"}
+	},
+	{properties: 
+		{title:"Yellowstar", image:"Yellowstar.jpg"}
+	},
+		],
+	"Cloud 9": [
+	{properties: 
+		{title:"Balls", image:"Balls.jpg"}
+	},
+	{properties: 
+		{title:"Rush", image:"Rush.jpg"}
+	},
+	{properties: 
+		{title:"Incarnation", image:"Incarnation.jpg"}
+	},
+	{properties: 
+		{title:"Sneaky", image:"Sneaky.jpg"}
+	},
+	{properties: 
+		{title:"Hai", image:"Hai.jpg"}
+	},
+	],
+	"Immortals": [
+	{properties: 
+		{title:"Huni", image:"Huni.jpg"}
+	},
+	{properties: 
+		{title:"Reignover", image:"Reignover.jpg"}
+	},
+	{properties: 
+		{title:"Pobelter", image:"Pobelter.jpg"}
+	},
+	{properties: 
+		{title:"Wildturtle", image:"Wildturtle.jpg"}
+	},
+	{properties: 
+		{title:"Adrian", image:"Adrian.jpg"}
+	},
+	],
+	"NRG Esports": [
+	{properties: 
+		{title:"Impact", image:"Impact.jpg"}
+	},
+	{properties: 
+		{title:"Moon", image:"Moon.jpg"}
+	},
+	{properties: 
+		{title:"Ganked By Mom", image:"GBM.jpg"}
+	},
+	{properties: 
+		{title:"Altec", image:"Altec.jpg"}
+	},
+	{properties: 
+		{title:"Konkwon", image:"Konkwon.jpg"}
+	},
+	]
+};

@@ -1,0 +1,259 @@
+
+12/17/2015, 11:28:43 AM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 0.12.7
+  npm Version                 = 2.11.3
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.1.0.GA
+  SDK Path                    = /Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.1.0.GA --project-dir /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4 --target simulator --ios-version 9.2 --device-family universal --sim-type iphone --sim-version 9.2 --device-id 70F9D705-3328-4D94-89B1-D6E7473B1383 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 58590 --plugin-paths /Users/jacobcarter/.appcelerator/install/5.1.0/package/node_modules --config-file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-1450369720520.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] Found iOS Simulator UDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
+[DEBUG]  Detecting modules in /Users/jacobcarter/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 4.0.3 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/facebook/4.0.3
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.map/2.3.0
+[DEBUG]  Detected android module: ti.map 2.3.4 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/android/ti.map/2.3.4
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.3 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/facebook/4.0.3
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.2.2 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.2
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.2 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.2
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/jacobcarter/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.2
+[INFO]   Building for iOS Simulator: iPhone 6
+[DEBUG]  UDID: 70F9D705-3328-4D94-89B1-D6E7473B1383
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.2
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/build-825b290860d47a8685f770d14b2af1cf74e5f05d.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 3580.756 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Carter_Jacob_Project4.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Carter_Jacob_Project4.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Carter_Jacob_Project4_Prefix.pch
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Carter_Jacob_Project4.xcodeproj/xcshareddata/xcschemes/Carter_Jacob_Project4.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/debugger.plist
+[DEBUG]  Skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 29x29 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  Found generated 58x58 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 40x40 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  Found generated 80x80 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  Found generated 76x76 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  Found generated 152x152 app icon: /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/KS_nav_views.png
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Adrian.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Adrian.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Altec.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Altec.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Balls.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Balls.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Bjergsen.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Bjergsen.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Doublelift.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Doublelift.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/GBM.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/GBM.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Hai.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Hai.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Hauntzer.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Hauntzer.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Huni.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Huni.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Impact.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Impact.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Incarnation.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Incarnation.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Konkwon.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Konkwon.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Moon.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Moon.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Pobelter.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Pobelter.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Reignover.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Reignover.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Rush.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Rush.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Sneaky.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Sneaky.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Svenskeren.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Svenskeren.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Wildturtle.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Wildturtle.jpg
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/images/Yellowstar.jpg => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/images/Yellowstar.jpg
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying /var/folders/jq/f45s60gd5rsbdtnw_fllr1d00000gn/T/liveview.js => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/app.js
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/data.js => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/data.js
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/list.js => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/list.js
+[DEBUG]  Copying /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/Resources/random.js => /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/random.js
+[INFO]   Writing app properties
+[DEBUG]  Writing /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/_app_props_.json
+[DEBUG]  Using default application routing
+[INFO]   Forcing rebuild: Classes/ApplicationRouting.m has changed since last build
+[DEBUG]  Writing /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/assets/_app_props__json
+[DEBUG]  Removing /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/assets/app_js
+[DEBUG]  Removing empty directories
+[INFO]   Invoking xcodebuild
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Carter_Jacob_Project4 -configuration Debug -scheme Carter_Jacob_Project4 -derivedDataPath /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone OBJROOT=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates SHARED_PRECOMPS_DIR=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/PrecompiledHeaders SYMROOT=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products -destination "platform=iOS Simulator,id=70F9D705-3328-4D94-89B1-D6E7473B1383,OS=9.2"
+[TRACE]  User defaults from command line:
+[TRACE]      IDEDerivedDataPathOverride = /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]  Build settings from command line:
+[TRACE]      OBJROOT = /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates
+[TRACE]      SHARED_PRECOMPS_DIR = /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/PrecompiledHeaders
+[TRACE]      SYMROOT = /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products
+[TRACE]  
+[TRACE]  === BUILD TARGET Carter_Jacob_Project4 OF PROJECT Carter_Jacob_Project4 WITH CONFIGURATION Debug ===
+[TRACE]  Check dependencies
+[TRACE]  warning: Capabilities that require entitlements from "Carter_Jacob_Project4.entitlements" may not function in the Simulator because no development team was selected and no valid signing identities (i.e. certificate and private key pair) were found. Select a development team in the target editor.
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/ApplicationRouting.o Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=development -D__LOG__ID__=1284fa55-59f0-4400-9aaa-8e9e84ffb44b -DDEBUG=1 -DTI_VERSION=5.1.0 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-generated-files.hmap -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-own-target-headers.hmap -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-all-target-headers.hmap -iquote /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-project-headers.hmap -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/usr/include/libxml2 -Iheaders -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/DerivedSources/i386 -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/DerivedSources -F/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator -DDEBUG -include /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/PrecompiledHeaders/Carter_Jacob_Project4_Prefix-dihigtccsbtvjfevqrzpeyuekejo/Carter_Jacob_Project4_Prefix.pch -MMD -MT dependencies -MF /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/ApplicationRouting.d --serialize-diagnostics /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/ApplicationRouting.dia -c /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/ApplicationRouting.m -o /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/ApplicationRouting.o
+[TRACE]  
+[TRACE]  CompileC build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/ApplicationRouting.o Classes/ApplicationRouting.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export LANG=en_US.US-ASCII
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fmodules -gmodules -fmodules-cache-path=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wno-parentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEPLOYTYPE=development -D__LOG__ID__=1284fa55-59f0-4400-9aaa-8e9e84ffb44b -DDEBUG=1 -DTI_VERSION=5.1.0 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=7.1 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-generated-files.hmap -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-own-target-headers.hmap -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-all-target-headers.hmap -iquote /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Carter_Jacob_Project4-project-headers.hmap -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/usr/include/libxml2 -Iheaders -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/DerivedSources/x86_64 -I/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/DerivedSources -F/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator -DDEBUG -include /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/PrecompiledHeaders/Carter_Jacob_Project4_Prefix-gctlrudffvxvnxemsbkklgfoauum/Carter_Jacob_Project4_Prefix.pch -MMD -MT dependencies -MF /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/ApplicationRouting.d --serialize-diagnostics /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/ApplicationRouting.dia -c /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/ApplicationRouting.m -o /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/ApplicationRouting.o
+[TRACE]  
+[TRACE]  Ld build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/Carter_Jacob_Project4 normal i386
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/lib -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/APSAnalytics -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/APSHTTPClient -F/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/Carter_Jacob_Project4.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -Xlinker -dependency_info -Xlinker /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/Carter_Jacob_Project4_dependency_info.dat -o /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/Carter_Jacob_Project4
+[TRACE]  
+[TRACE]  Ld build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/Carter_Jacob_Project4 normal x86_64
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/lib -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/APSAnalytics -L/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/Classes/APSHTTPClient -F/Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/Carter_Jacob_Project4.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -Xlinker -dependency_info -Xlinker /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/Carter_Jacob_Project4_dependency_info.dat -o /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/Carter_Jacob_Project4
+[TRACE]  
+[TRACE]  CreateUniversalBinary build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Carter_Jacob_Project4 normal i386\ x86_64
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/i386/Carter_Jacob_Project4 /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Intermediates/Carter_Jacob_Project4.build/Debug-iphonesimulator/Carter_Jacob_Project4.build/Objects-normal/x86_64/Carter_Jacob_Project4 -output /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Carter_Jacob_Project4
+[TRACE]  
+[TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app.dSYM build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Carter_Jacob_Project4
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Carter_Jacob_Project4 -o /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app.dSYM
+[TRACE]  
+[TRACE]  CopySwiftLibs build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-stdlib-tool --copy --verbose --scan-executable /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Carter_Jacob_Project4 --scan-folder /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Frameworks --scan-folder /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/iAd.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreMedia.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreMotion.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreText.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/EventKitUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/Security.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/Foundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/UIKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreGraphics.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AddressBook.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AddressBookUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CFNetwork.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/CoreLocation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MapKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MessageUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MobileCoreServices.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/OpenGLES.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/QuartzCore.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/SystemConfiguration.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AudioToolbox.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/MediaPlayer.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/AVFoundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/StoreKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/System/Library/Frameworks/ExternalAccessory.framework --platform iphonesimulator --destination /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app/Frameworks --strip-bitcode
+[TRACE]  
+[TRACE]  Touch build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app
+[TRACE]      cd /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /usr/bin/touch -c /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app
+[TRACE]  
+[TRACE]  ** BUILD SUCCEEDED **
+[INFO]   Finished building the application in 6s 865ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib]   iOS     = 9.2
+[TRACE]  [ioslib] Autoselected Xcode: 7.2
+[TRACE]  [ioslib] Removing old log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/70F9D705-3328-4D94-89B1-D6E7473B1383/data/Containers/Data/Application/0E6ADDD8-68E8-4F3F-ABB2-E3308832936E/Documents/1284fa55-59f0-4400-9aaa-8e9e84ffb44b.log
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/jacobcarter/Library/Logs/CoreSimulator/70F9D705-3328-4D94-89B1-D6E7473B1383/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] iPhone 6 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 70F9D705-3328-4D94-89B1-D6E7473B1383
+[TRACE]  [ioslib] iPhone 6 Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/jacobcarter/Library/Application Support/Titanium/mobilesdk/osx/5.1.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 70F9D705-3328-4D94-89B1-D6E7473B1383 /Users/jacobcarter/Documents/VFW1512/Lab/Carter_Jacob_Project4/build/iphone/build/Products/Debug-iphonesimulator/Carter_Jacob_Project4.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 70F9D705-3328-4D94-89B1-D6E7473B1383 com.carter.project4
+[TRACE]  [ioslib] App launched
+[TRACE]  [Carter_Jacob_Project4] assertion failed: 14F1021 13C75: libxpc.dylib + 58018 [3E9AE163-9A95-35D3-BA2C-2E7144498580]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/jacobcarter/Library/Developer/CoreSimulator/Devices/70F9D705-3328-4D94-89B1-D6E7473B1383/data/Containers/Data/Application/FB425712-FBD3-44AE-90C7-E87C6A8C5AAB/Documents/1284fa55-59f0-4400-9aaa-8e9e84ffb44b.log

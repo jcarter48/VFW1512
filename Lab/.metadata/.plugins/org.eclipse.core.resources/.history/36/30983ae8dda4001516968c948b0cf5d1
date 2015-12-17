@@ -1,0 +1,34 @@
+var data = require("data");
+
+var randomWin = Ti.UI.createWindow({
+	backgroundColor: "#ececec",
+	title: "Additional Info"
+});
+var randomizeButton = Ti.UI.createView({
+	backgroundColor: "#ececec",
+	width: 200,
+	height: 75,
+	top: 150,
+	borderWidth: 5
+});
+var randomizerLabel = Ti.UI.createLabel({
+	text: "Random Image",
+	top: 40,
+	color: "#000000",
+	font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
+});
+var randomizerImage = Ti.UI.createImageView({
+	width: 330,
+	height: 260,
+	top: 90,
+	image: data.listData.image
+});
+
+randomizerButton.addEventListener("click", function(){
+	randomWin.close();
+});
+
+randomizerButton.add(randomizerButtonLabel);
+randomWin.add(randomizerButton, randomizerImage);
+
+exports.randomWin = randomWin;

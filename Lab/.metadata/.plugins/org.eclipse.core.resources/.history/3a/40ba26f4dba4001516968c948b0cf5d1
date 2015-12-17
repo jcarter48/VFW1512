@@ -1,0 +1,22 @@
+var openDetail = function(source){
+	var detailWin = Ti.UI.createWindow({
+		backgroundColor: "#ececec",
+		title: "Additional Info"
+	});
+	var detailLabel = Ti.UI.createLabel({
+		text: source.title,
+		top: 40,
+		color: "#000000",
+		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
+	});
+	var detailImage = Ti.UI.createImageView({
+		width: 340,
+		height: 270,
+		top: 90,
+		image: source.image
+	});
+	detailWin.add(detailLabel, detailImage);
+	nav.openWindow(detailWin);
+};
+
+exports.openDetail = openDetail;

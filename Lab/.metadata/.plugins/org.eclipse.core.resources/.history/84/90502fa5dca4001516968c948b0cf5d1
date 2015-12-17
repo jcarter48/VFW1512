@@ -1,0 +1,22 @@
+var randomImage = function(){
+	var randomWin = Ti.UI.createWindow({
+		backgroundColor: "#ececec",
+		title: "Additional Info"
+	});
+	var randomLabel = Ti.UI.createLabel({
+		text: "Random Image",
+		top: 40,
+		color: "#000000",
+		font: {fontSize: 40, fontFamily: "AmericanTypewriter"}
+	});
+	var randomImage = Ti.UI.createImageView({
+		width: 330,
+		height: 260,
+		top: 90,
+		image: source.image
+	});
+	randomWin.add(randomLabel, randomImage);
+	nav.openWindow(randomWin);
+};
+
+exports.randomImage = randomImage;
