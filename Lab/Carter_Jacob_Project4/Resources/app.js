@@ -1,3 +1,4 @@
+//Requires
 var random = require("random");
 var list = require("list");
 var bar = require("bar");
@@ -47,11 +48,15 @@ var barButtonLabel = Ti.UI.createLabel({
 	font: {fontSize: 25, fontFamily: "AmericanTypewriter"}
 });
 
+//making label a child of the button
 randomButton.add(randomButtonLabel);
 listButton.add(listButtonLabel);
 barButton.add(barButtonLabel);
 
+//adding everything to window
 win.add(randomButton, listButton, barButton);
+
+//eventlisteners for all buttons
 randomButton.addEventListener("click", function(){
 	nav.openWindow(random.randomWin);
 });
@@ -61,4 +66,6 @@ listButton.addEventListener("click", function(){
 barButton.addEventListener("click", function(){
 	nav.openWindow(bar.tabbedWin);
 });
+
+//opening nav window
 nav.open();

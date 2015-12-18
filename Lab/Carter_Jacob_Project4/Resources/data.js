@@ -1,3 +1,4 @@
+//data
 var listData = {
 	"Team Solo Mid": [
 	{properties: 
@@ -69,4 +70,5 @@ var listData = {
 	]
 };
 
+//export
 exports.listData = listData;

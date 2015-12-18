@@ -24960,3 +24960,9 @@ java.lang.IllegalArgumentException: Source type cannot be null or empty
 
 !ENTRY com.appcelerator.titanium.core 4 0 2015-12-17 13:45:55.085
 !MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-18 16:56:43.423
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-12-18 16:56:43.424
+!MESSAGE (Build 4.4.0.201511241829) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
